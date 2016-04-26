@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
 
+import com.google.android.gms.location.Geofence;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -12,9 +13,12 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.util.List;
+
 public class MainActivity extends FragmentActivity implements OnMapReadyCallback{
 
     private GoogleMap mMap;
+    private List<Geofence> mGeofenceList;
     private android.support.design.widget.FloatingActionButton mSettings;
     private static final int SETTINGS = 0;
     @Override
@@ -38,6 +42,12 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         });
 
 
+
+    }
+
+    //Test Geofence
+    public void TestGeofence(){
+
     }
 
 
@@ -56,7 +66,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
         // Add a marker in Sydney and move the camera
         LatLng sydney = new LatLng(38.8951100, -77.0363700);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Washington DC")).showInfoWindow();
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 
