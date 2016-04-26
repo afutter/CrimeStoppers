@@ -65,9 +65,10 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(38.8951100, -77.0363700);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Washington DC")).showInfoWindow();
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng washington = new LatLng(38.8951100, -77.0363700);
+        mMap.addMarker(new MarkerOptions().position(washington).title("Washington DC")).showInfoWindow();
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(washington));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(10), 2000, null);//2000 animates it for 2 seconds. Zoom lvl 10
     }
 
     private static double distance(double lat1, double lon1, double lat2, double lon2, String unit) {
