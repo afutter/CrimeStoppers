@@ -10,18 +10,34 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+
 public class CrimeMapActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-
+    private android.support.design.widget.FloatingActionButton mSettings;
+    private static final int SETTINGS = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crime_map);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        mSettings =(android.support.design.widget.FloatingActionButton)  findViewById(R.id.settingsButton);
+
+        mSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CrimeMapActivity.this, SettingsActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
@@ -42,5 +58,10 @@ public class CrimeMapActivity extends FragmentActivity implements OnMapReadyCall
         LatLng sydney = new LatLng(-34, 151);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
     }
 }
