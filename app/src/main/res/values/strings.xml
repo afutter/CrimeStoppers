@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">CrimeStoppers</string>
-    <string name="title_activity_crime_map">Map</string>
+    <string name="title_activity_crime_map">CrimeStoppers</string>
 </resources>
