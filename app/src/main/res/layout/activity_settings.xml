@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Radius (in miles)"
+        android:text="Radius (in miles): "
         android:id="@+id/radiusHeader"
         android:layout_below="@+id/settingsHeader"
         android:layout_alignParentStart="true"
@@ -76,8 +76,8 @@
         android:id="@+id/assaultCheckBox"
         android:checked="false"
         android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/autoCheckBox"
-        android:layout_alignEnd="@+id/autoCheckBox" />
+        android:layout_alignStart="@+id/carJackCheckBox"
+        android:layout_toStartOf="@+id/submitButton" />
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -91,10 +91,10 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Theft f/Auto"
-        android:id="@+id/autoCheckBox"
+        android:text="Theft of Items\n from Vehicle"
+        android:id="@+id/carJackCheckBox"
         android:checked="false"
-        android:layout_alignTop="@+id/theftCheckBox"
+        android:layout_below="@+id/checkBoxHeader"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -141,5 +141,13 @@
         android:checked="false"
         android:layout_alignTop="@+id/sexCheckBox"
         android:layout_alignStart="@+id/assaultCheckBox" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/seekbarVal"
+        android:layout_above="@+id/seekBarRadius"
+        android:layout_toEndOf="@+id/radiusHeader" />
 
 </RelativeLayout>
