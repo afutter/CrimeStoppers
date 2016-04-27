@@ -71,11 +71,11 @@ public class Parser {
 						} else if(nextAtt.getNodeName().compareTo("dcst:blockxcoord") == 0) {
 							Node temp = nextAtt.getFirstChild();
 							String xCoord = temp.getNodeValue();
-							xCoordinate = Double.parseDouble(xCoord);
+							xCoordinate = Double.parseDouble(xCoord) / 10000;
 						} else if(nextAtt.getNodeName().compareTo("dcst:blockycoord") == 0) {
 							Node temp = nextAtt.getFirstChild();
 							String yCoord = temp.getNodeValue();
-							yCoordinate = Double.parseDouble(yCoord);
+							yCoordinate = (Double.parseDouble(yCoord) / 10000) - 90;
 						} else if(nextAtt.getNodeName().compareTo("dcst:blocksiteaddress") == 0) {
 							Node temp = nextAtt.getFirstChild();
 							address = temp.getNodeValue();
@@ -90,6 +90,9 @@ public class Parser {
 					crime_count.put(offense, crime_count.get(offense) + 1);
 				}
 				data.add(newCrime);
+				//----------
+				//System.out.println(newCrime.xCoordinate  + "  -  " +newCrime.yCoordinate + "\n");
+				//----------
 			}
 		}
 		for(String key: crime_count.keySet()) {
@@ -97,7 +100,7 @@ public class Parser {
 		}
 	}
 
-	private TreeSet<Crime> nearestCrimes(double lat, double lon) {
+	private TreeSet<Crime> nearestCrimes(double lat, double lon, int radius) {
 
 		TreeSet<Crime> tree = new TreeSet<Crime>();
 		for (Crime c : data) {
@@ -105,7 +108,6 @@ public class Parser {
 			tree.add(c);
 		}
 		return tree;
-
 	}
 
 	private static double distance(double lat1, double lon1, double lat2, double lon2, String unit) {
