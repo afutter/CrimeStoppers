@@ -1,0 +1,2164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportedCrimes><dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16060238]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T20:23:05-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1 - 99 BLOCK OF MASSACHUSETTS AVENUE NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[399272]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136594]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[103]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[006202 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[006202]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 130]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/18/2016 9:30:47 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/18/2016 11:35:04 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16060902]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T10:25:29-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[ASSAULT W/DANGEROUS WEAPON]]></dcst:offense>
+        <dcst:method><![CDATA[GUN]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2000 2098  BLOCK OF MARTIN LUTHER KING JR AVENUE SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[400937]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[133147]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[701]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[28]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[ANACOSTIA]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007503 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007503]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 114]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/19/2016 10:57:43 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16063078]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T17:35:11-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2100 - 2199 BLOCK OF WYOMING AVENUE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[395814]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[138839]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[208]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[1]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[004100 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[004100]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 13]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/22/2016 5:01:50 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/22/2016 5:43:41 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16063209]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T18:21:48-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2100 - 2199 BLOCK OF BANCROFT PLACE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[395894]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[138552]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[208]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[1]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[004100 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[004100]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 13]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/22/2016 8:04:39 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/22/2016 9:10:22 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064185]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T07:36:52-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:10-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1300 - 1499 BLOCK OF MASSACHUSETTS AVENUE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397216.27]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137538.44]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2F]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[208]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005201 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005201]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 17]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 12:01:18 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/24/2016 11:00:02 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064425]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T16:13:52-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2500 2609  BLOCK OF 34TH STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[403731]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[132306]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[7]]></dcst:ward>
+        <dcst:anc><![CDATA[7B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SIXTH]]></dcst:district>
+        <dcst:psa><![CDATA[606]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[35]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007603 3]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007603]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 110]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 1:00:21 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/24/2016 5:00:55 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064515]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T05:08:55-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[MIDNIGHT]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[3900 - 3999 BLOCK OF MARTIN LUTHER KING JR AVENUE SW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[399218]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[129419]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[708]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[39]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[009807 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[009807]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 124]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 11:30:49 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/24/2016 11:36:02 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064532]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T02:46:00-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[MIDNIGHT]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2000 - 2099 BLOCK OF 13TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397431]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[138854]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[305]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[3]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[004400 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[004400]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 22]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 10:50:09 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 12:10:57 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064537]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T01:19:57-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[MIDNIGHT]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2600 - 2699 BLOCK OF HAMLIN STREET NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[402638]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[139982]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[503]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[22]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[011100 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[011100]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 71]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 2:13:18 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/24/2016 2:14:40 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064544]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T01:25:09-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[MIDNIGHT]]></dcst:shift>
+        <dcst:offense><![CDATA[ROBBERY]]></dcst:offense>
+        <dcst:method><![CDATA[GUN]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1222 - 1299 BLOCK OF 1ST STREET NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[399489]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137664]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[506]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[25]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[NOMA]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[010600 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[010600]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 83]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 12:25:44 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 12:30:03 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064561]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T02:32:34-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[MIDNIGHT]]></dcst:shift>
+        <dcst:offense><![CDATA[MOTOR VEHICLE THEFT]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1100 - 1199 BLOCK OF 3RD STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[399823]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[134352]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[106]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[27]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[CAPITOL RIVERFRONT]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007200 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007200]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 131]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 6:00:09 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 1:30:24 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064564]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T02:47:42-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[MIDNIGHT]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2000 - 2099 BLOCK OF 14TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397229]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[138854]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[305]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[3]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[004300 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[004300]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 22]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 1:55:57 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 2:00:18 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064574]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T05:09:40-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[MIDNIGHT]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[400 - 499 BLOCK OF MELLON STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[399910]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[131120]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[707]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[39]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[010400 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[010400]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 123]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 6:00:31 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 2:45:53 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064586]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T04:47:57-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[MIDNIGHT]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[600 - 699 BLOCK OF F STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[398185]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136610]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[102]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005800 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005800]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 129]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 4:30:10 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 4:45:41 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064590]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T05:49:03-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[MIDNIGHT]]></dcst:shift>
+        <dcst:offense><![CDATA[ROBBERY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1800 - 2199 BLOCK OF U PLACE SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[401953]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[133141]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[701]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[34]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007605 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007605]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 112]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 4:52:47 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 4:57:46 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064599]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T06:52:54-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[MIDNIGHT]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1100 - 1199 BLOCK OF 10TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397746]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137450]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2F]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[307]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[004902 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[004902]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 129]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 3:30:27 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 5:45:52 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064601]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T07:07:36-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1200 - 1299 BLOCK OF 9TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397920]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137620]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2F]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[307]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[7]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[004902 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[004902]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 129]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 5:10:59 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 5:11:16 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064606]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T11:03:36-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[3535 - 3561 BLOCK OF WARDER STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[398204]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[140638]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FOURTH]]></dcst:district>
+        <dcst:psa><![CDATA[409]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[2]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[003200 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[003200]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 43]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/23/2016 5:00:13 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 6:00:30 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064607]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T08:49:13-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[50 - 53 BLOCK OF M STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[399385]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[134294]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[106]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[27]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[CAPITOL RIVERFRONT]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007200 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007200]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 131]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/23/2016 5:30:38 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 8:49:09 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064618]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T08:32:29-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[MOTOR VEHICLE THEFT]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2500 - 2599 BLOCK OF 13TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397423]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[139469]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[304]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[2]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[003600 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[003600]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 23]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/22/2016 9:30:37 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 7:30:20 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064627]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T08:53:03-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[7514  - 7699 BLOCK OF ALASKA AVENUE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397506]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[146008]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[4]]></dcst:ward>
+        <dcst:anc><![CDATA[4A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FOURTH]]></dcst:district>
+        <dcst:psa><![CDATA[401]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[16]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[001600 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[001600]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 62]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 8:00:57 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 7:30:56 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064631]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T09:55:57-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2000 - 2016 BLOCK OF P STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[396069]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137976]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[208]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[6]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005500 5]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005500]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 14]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 12:30:58 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 7:55:57 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064632]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T09:53:13-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1250 - 1299 BLOCK OF 22ND STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[395766]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137665]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[208]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[5]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005500 3]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005500]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 4]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/23/2016 2:00:39 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 7:00:07 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064634]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T09:22:40-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1900 - 1999 BLOCK OF E STREET NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[402017]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136474]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[7]]></dcst:ward>
+        <dcst:anc><![CDATA[7D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[507]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[25]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007903 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007903]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 80]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 8:27:20 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 9:20:48 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064639]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T09:24:31-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2700 - 2899 BLOCK OF 28TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[395105]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[139936]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[3]]></dcst:ward>
+        <dcst:anc><![CDATA[3C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[204]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[15]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[000502 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[000502]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 26]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 2:00:34 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 8:30:21 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064646]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T09:55:48-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1900 - 1999 BLOCK OF E STREET NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[402017]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136474]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[7]]></dcst:ward>
+        <dcst:anc><![CDATA[7D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[507]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[25]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007903 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007903]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 80]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 9:20:14 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 9:40:31 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064676]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T10:48:52-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2103 - 2199 BLOCK OF FOXHALL ROAD NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[392302]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[138973]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[3]]></dcst:ward>
+        <dcst:anc><![CDATA[3D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[205]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[13]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[000801 4]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[000801]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 8]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/17/2016 6:00:38 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/22/2016 12:00:44 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064678]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T11:12:48-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[ROBBERY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[3000 - 3099 BLOCK OF 30TH STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[403074]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[131528]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[702]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[36]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007408 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007408]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 115]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 8:00:55 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/24/2016 9:00:37 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064687]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T13:08:48-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[ROBBERY]]></dcst:offense>
+        <dcst:method><![CDATA[KNIFE]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[4500 - 4599 BLOCK OF GRANT ROAD NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[393425]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[142311]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[3]]></dcst:ward>
+        <dcst:anc><![CDATA[3E]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[202]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[11]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[001200 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[001200]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 33]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 8:55:22 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 9:19:15 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064692]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T11:37:04-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[200 - 299 BLOCK OF MASSACHUSETTS AVENUE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[398750]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136855]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[103]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005900 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005900]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 143]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/23/2016 2:00:04 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 7:00:39 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064697]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T11:41:57-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[200 - 249 BLOCK OF I STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[399719]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[134605]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[106]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[27]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[CAPITOL RIVERFRONT]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007200 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007200]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 131]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 10:57:33 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064705]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T12:42:28-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[ROBBERY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1300 - 1699 BLOCK OF CONNECTICUT AVENUE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[396217.89]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[138008.23]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[208]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[6]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005500 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005500]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 14]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 4:20:35 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 4:35:14 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064711]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T12:48:31-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[900 - 999 BLOCK OF RHODE ISLAND AVENUE NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[400594]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[139371]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[504]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[22]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[009102 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[009102]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 72]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 11:35:10 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 11:40:17 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064719]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T14:39:51-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[4200 - 4399 BLOCK OF BROOKS STREET NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[405126]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136202]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[7]]></dcst:ward>
+        <dcst:anc><![CDATA[7D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SIXTH]]></dcst:district>
+        <dcst:psa><![CDATA[602]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[30]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007803 4]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007803]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 99]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 11:00:04 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 7:00:38 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064723]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T13:14:14-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2100 - 2199 BLOCK OF L STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[395856]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137321]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[207]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[6]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[GOLDEN TRIANGLE]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[010700 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[010700]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 4]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 11:00:30 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064729]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T13:01:16-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1200 - 1299 BLOCK OF 23RD STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[395654]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137600]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[208]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[5]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005500 3]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005500]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 4]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 11:00:43 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 11:45:03 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064730]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T12:49:42-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[3523 - 3599 BLOCK OF 14TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397162]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[140894]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FOURTH]]></dcst:district>
+        <dcst:psa><![CDATA[409]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[2]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[002801 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[002801]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 41]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 12:00:54 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 12:49:40 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064739]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T13:23:24-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1500 - 1599 BLOCK OF KINGMAN PLACE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397320]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[138058]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2F]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[307]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[7]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005001 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005001]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 16]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 11:52:44 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/24/2016 12:00:17 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064742]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T13:39:43-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2300 - 2499 BLOCK OF CHAMPLAIN STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[396418]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[139305]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[303]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[1]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[ADAMS MORGAN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[003800 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[003800]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 24]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 1:00:19 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 11:00:47 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064752]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T13:34:50-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2714 - 2799 BLOCK OF MINNESOTA AVENUE SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[402783]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[134115]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[7]]></dcst:ward>
+        <dcst:anc><![CDATA[7B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SIXTH]]></dcst:district>
+        <dcst:psa><![CDATA[605]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[34]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007709 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007709]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 111]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 12:26:56 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064760]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T13:56:56-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[800 - 899 BLOCK OF V STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397966]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[138877]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[305]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[3]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[003500 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[003500]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 37]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 12:15:21 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 1:40:36 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064770]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T13:41:30-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[ROBBERY]]></dcst:offense>
+        <dcst:method><![CDATA[GUN]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[300 - 409 BLOCK OF 50TH STREET NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[406139]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136306]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[7]]></dcst:ward>
+        <dcst:anc><![CDATA[7C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SIXTH]]></dcst:district>
+        <dcst:psa><![CDATA[602]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[31]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007804 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007804]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 97]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 12:45:45 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 12:50:09 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064774]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T14:01:44-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2822 - 2899 BLOCK OF GEORGIA AVENUE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[398011]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[139902]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[306]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[2]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[003500 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[003500]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 37]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 11:05:08 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 11:30:00 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064775]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T14:41:47-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[SEX ABUSE]]></dcst:offense>
+        <dcst:method><![CDATA[GUN]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1100 - 1199 BLOCK OF 51ST STREET NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[406394]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137504]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[7]]></dcst:ward>
+        <dcst:anc><![CDATA[7C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SIXTH]]></dcst:district>
+        <dcst:psa><![CDATA[602]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[31]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007806 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007806]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 93]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/12/2016 9:30:56 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 2:38:59 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064776]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T14:50:09-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1500 - 1599 BLOCK OF K STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[396915.49]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137186.09]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[207]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[6]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[010100 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[010100]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 17]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 12:55:24 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 1:05:54 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064779]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T13:56:45-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1300 - 1335 BLOCK OF WISCONSIN AVENUE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[394514]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137708]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2E]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[206]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[4]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[GEORGETOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[000202 3]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[000202]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 6]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/23/2016 7:15:59 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/24/2016 2:05:16 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064782]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T14:34:30-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1 - 99 BLOCK OF H STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[399078]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136928]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6E]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[103]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[NOMA]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[004702 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[004702]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 1]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 1:45:36 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064793]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T14:22:36-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[DAY]]></dcst:shift>
+        <dcst:offense><![CDATA[ROBBERY]]></dcst:offense>
+        <dcst:method><![CDATA[GUN]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1600 - 1899 BLOCK OF W STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[401712]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[132801]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[701]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[28]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007504 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007504]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 114]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 1:00:35 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 1:09:22 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064799]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T15:03:56-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1220 - 1281 BLOCK OF BRENTWOOD ROAD NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[400999]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[139413]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[505]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[22]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[009102 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[009102]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 72]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/22/2016 8:00:53 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/22/2016 3:00:50 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064801]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T16:01:18-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1220 - 1281 BLOCK OF BRENTWOOD ROAD NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[400999]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[139413]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[505]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[22]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[009102 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[009102]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 72]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 1:00:12 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 3:11:48 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064811]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T20:30:16-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[MOTOR VEHICLE THEFT]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1800 - 1899 BLOCK OF 12TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397564]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[138552]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[305]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[3]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[004400 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[004400]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 137]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/23/2016 11:43:54 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/23/2016 11:44:04 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064812]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T15:23:44-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[5300 - 5399 BLOCK OF WISCONSIN AVENUE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[392607]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[143559]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[3]]></dcst:ward>
+        <dcst:anc><![CDATA[3E]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[202]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[11]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[001001 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[001001]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 31]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 1:15:19 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 1:48:43 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064820]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T16:42:08-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1700 1799  BLOCK OF S STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[401745]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[133378]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[701]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[34]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007605 3]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007605]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 112]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 11:00:50 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 4:14:53 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064822]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T21:35:06-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[700 - 999 BLOCK OF INDEPENDENCE AVENUE SW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397921]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[135525]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[105]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[9]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[SOUTHWEST]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[010200 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[010200]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 142]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 9:00:07 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 2:33:00 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064826]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T18:22:02-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1600 - 1699 BLOCK OF MARYLAND AVENUE NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[401740]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137077]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[507]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[23]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[008904 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[008904]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 79]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 3:09:58 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 4:16:52 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064827]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T19:34:17-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[800 - 899 BLOCK OF 7TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[398099]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136943]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[102]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005800 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005800]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 129]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 1:45:46 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 3:06:44 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064833]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T17:02:42-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[3101 - 3199 BLOCK OF 16TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[396837]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[140214]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[302]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[2]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[002702 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[002702]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 39]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 9:15:39 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 12:30:42 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064834]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T15:51:53-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[800 - 899 BLOCK OF O STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397965]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137857]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6E]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[308]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[7]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[004902 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[004902]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 18]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 2:00:09 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 3:00:48 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064838]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T16:36:42-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[4284 4293  BLOCK OF 6TH STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[400120]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[128696]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[706]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[39]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[009811 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[009811]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 125]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/23/1916 10:00:13 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 3:00:06 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064849]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T22:16:29-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2100 - 2199 BLOCK OF RHODE ISLAND AVENUE NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[402210]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[140221]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[503]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[22]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[009400 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[009400]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 70]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 2:49:19 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 2:52:41 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064859]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T17:20:56-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[400 497  BLOCK OF L STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[398477]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137319]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6E]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[102]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[MOUNT VERNON TRIANGLE CID]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[004701 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[004701]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 1]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[1/29/2016 3:44:20 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/23/2016 12:00:11 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064863]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T20:00:46-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[800 - 899 BLOCK OF 7TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[398099]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136943]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[102]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005800 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005800]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 129]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 3:43:15 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 3:47:40 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064872]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T17:17:27-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1300 - 1399 BLOCK OF FAIRMONT STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397313]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[139653]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[304]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[2]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[003600 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[003600]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 36]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/24/2016 5:30:32 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 4:55:21 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064886]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T20:17:02-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[800 - 899 BLOCK OF 7TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[398099]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136943]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[102]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005800 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005800]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 129]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 4:35:06 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 4:45:19 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064890]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T19:49:23-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1000 - 1099 BLOCK OF F STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397700]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136611]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[101]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005800 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005800]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 129]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 4:40:04 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 4:45:16 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064903]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T21:28:34-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1900 - 1999 BLOCK OF 11TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397655]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[138713]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[305]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[3]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[004400 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[004400]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 22]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 9:00:15 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 5:10:34 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064906]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T18:32:41-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[4200 - 4399 BLOCK OF 7TH STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[400251]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[128889]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[706]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[39]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[009811 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[009811]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 125]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 7:30:40 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 4:30:40 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064910]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T18:39:51-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[900  - 999 BLOCK OF HAMILTON STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397694]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[142781]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[4]]></dcst:ward>
+        <dcst:anc><![CDATA[4D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FOURTH]]></dcst:district>
+        <dcst:psa><![CDATA[403]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[18]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[002101 4]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[002101]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 56]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/22/2016 4:00:38 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 6:05:38 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064918]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T18:06:41-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1 - 99 BLOCK OF MASSACHUSETTS AVENUE NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[399272]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136594]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[103]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[006202 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[006202]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 130]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/23/2016 2:00:08 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/24/2016 6:00:35 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064922]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T18:33:42-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[ROBBERY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[800 - 999 BLOCK OF 11TH STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[400734]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[134556]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[106]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[26]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[CAPITOL HILL]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007000 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007000]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 90]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 4:25:51 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 4:30:41 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064924]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T19:11:48-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[600  - 699 BLOCK OF DELAFIELD PLACE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[398157]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[142362]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[4]]></dcst:ward>
+        <dcst:anc><![CDATA[4D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FOURTH]]></dcst:district>
+        <dcst:psa><![CDATA[407]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[18]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[002201 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[002201]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 55]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 9:35:32 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 10:39:35 AM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064938]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T22:54:05-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[900 - 999 BLOCK OF G STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397835]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136718]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[101]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005800 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005800]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 129]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 4:20:21 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 4:21:19 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064944]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T20:00:18-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1200  - 1299 BLOCK OF UNDERWOOD STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397528]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[144562]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[4]]></dcst:ward>
+        <dcst:anc><![CDATA[4A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FOURTH]]></dcst:district>
+        <dcst:psa><![CDATA[402]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[17]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[001804 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[001804]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 61]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 5:30:40 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 6:40:51 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064952]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T19:11:55-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[3410 3499  BLOCK OF 19TH STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[402030]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[130847]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[704]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[38]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007409 3]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007409]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 116]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 6:05:38 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 7:00:50 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064960]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T18:49:02-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[4000 - 4399 BLOCK OF 3RD STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[399819]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[128990]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[708]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[39]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[009810 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[009810]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 125]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 2:00:55 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 5:05:48 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064969]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T19:04:33-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[3931 3974  BLOCK OF C STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[404553]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[135353]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[7]]></dcst:ward>
+        <dcst:anc><![CDATA[7F]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SIXTH]]></dcst:district>
+        <dcst:psa><![CDATA[603]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[32]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007703 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007703]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 103]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 6:12:06 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 7:04:27 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064992]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T19:57:55-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[3000 - 3199 BLOCK OF CONNECTICUT AVENUE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[395188]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[140277]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[3]]></dcst:ward>
+        <dcst:anc><![CDATA[3C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[204]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[15]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[000502 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[000502]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 26]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 7:05:14 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 7:06:41 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16064995]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T19:44:46-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1 - 99 BLOCK OF MASSACHUSETTS AVENUE NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[399272]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136594]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[103]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[006202 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[006202]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 130]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 4:00:34 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 7:15:38 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065000]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T20:23:46-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1800 - 1899 BLOCK OF L STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[396307]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137321]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2B]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[207]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[6]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[GOLDEN TRIANGLE]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[010700 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[010700]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 17]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 6:42:33 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 6:50:44 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065004]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T21:19:01-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1500 - 1530 BLOCK OF PARK ROAD NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[396930]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[140374]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[302]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[2]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[002802 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[002802]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 39]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 7:00:53 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 7:14:39 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065013]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T22:15:51-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[100 - 199 BLOCK OF THOMAS STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[398847]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[138712]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5E]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[501]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[21]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[003301 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[003301]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 135]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 2:53:23 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 6:00:55 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065029]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T20:34:24-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2900 - 2999 BLOCK OF VAN NESS STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[394650]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[141697]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[3]]></dcst:ward>
+        <dcst:anc><![CDATA[3F]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[203]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[12]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[001302 3]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[001302]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 34]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 8:15:29 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 8:34:21 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065035]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T20:53:30-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1200 - 1299 BLOCK OF 10TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397746]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137620]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2F]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[307]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[7]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[004902 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[004902]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 129]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/22/2016 3:45:08 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 5:00:09 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065036]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T21:01:57-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1052 - 1103 BLOCK OF BLADENSBURG ROAD NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[401652]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137333]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[506]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[23]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[008802 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[008802]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 77]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 8:17:44 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 8:20:48 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065043]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T21:13:58-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1100 - 1199 BLOCK OF VERMONT AVENUE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397171]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137408]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2F]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[207]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[DOWNTOWN]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[010100 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[010100]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 17]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 1:30:58 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 2:15:58 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065049]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T21:32:11-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1400 - 1499 BLOCK OF PARK ROAD NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397068]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[140306]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[302]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[2]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[002802 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[002802]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 39]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 8:34:15 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 8:47:03 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065064]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T21:37:04-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[4500 - 4537 BLOCK OF WISCONSIN AVENUE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[393070]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[142276]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[3]]></dcst:ward>
+        <dcst:anc><![CDATA[3E]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[202]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[11]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[001001 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[001001]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 31]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 8:57:02 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 8:59:54 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065067]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T21:52:20-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1909 - 1999 BLOCK OF 14TH STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[401280]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[133168]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[701]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[28]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[007503 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[007503]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 114]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 9:03:51 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 9:10:41 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065080]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T22:02:50-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[BURGLARY]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[4000 - 4099 BLOCK OF 4TH STREET SE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[399950]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[129192]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8D]]></dcst:anc>
+        
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[706]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[39]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[009811 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[009811]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 125]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 5:30:46 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 9:00:46 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065085]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T22:45:15-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[3200 - 3218 BLOCK OF GEORGIA AVENUE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397969]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[140269]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[302]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[2]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[003100 1]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[003100]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 38]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 9:01:21 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 9:28:23 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065086]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T22:52:56-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[ROBBERY]]></dcst:offense>
+        <dcst:method><![CDATA[GUN]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[2200 - 2299 BLOCK OF FLAGLER PLACE NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[398825]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[139092]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5E]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[501]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[21]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[003301 3]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[003301]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 135]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 9:20:27 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 10:00:53 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065118]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T23:22:04-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[MIDNIGHT]]></dcst:shift>
+        <dcst:offense><![CDATA[ASSAULT W/DANGEROUS WEAPON]]></dcst:offense>
+        <dcst:method><![CDATA[KNIFE]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1200 - 1299 BLOCK OF SARATOGA AVENUE NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[400912]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[139401]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5C]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[505]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[22]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[009102 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[009102]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 72]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 9:42:20 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 10:03:48 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16065202]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T20:45:30-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT/OTHER]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:32:11-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[1400 - 1499 BLOCK OF 11TH STREET NW]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[397655]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[137916]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2F]]></dcst:anc>
+        
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[307]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[7]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[005002 3]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[005002]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 17]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/25/2016 1:00:16 PM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 5:30:15 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    <dcst:ReportedCrime xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <dcst:ccn><![CDATA[16084882]]></dcst:ccn>
+        <dcst:reportdatetime><![CDATA[2016-04-25T17:42:05-04:00]]></dcst:reportdatetime>
+        <dcst:shift><![CDATA[EVENING]]></dcst:shift>
+        <dcst:offense><![CDATA[THEFT F/AUTO]]></dcst:offense>
+        <dcst:method><![CDATA[OTHERS]]></dcst:method>
+        <dcst:lastmodifieddate><![CDATA[2016-04-26T08:31:40-04:00]]></dcst:lastmodifieddate>
+        <dcst:blocksiteaddress><![CDATA[600 - 699 BLOCK OF 11TH STREET NE]]></dcst:blocksiteaddress>
+        <dcst:blockxcoord><![CDATA[400734]]></dcst:blockxcoord>
+        <dcst:blockycoord><![CDATA[136696]]></dcst:blockycoord>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6A]]></dcst:anc>
+        
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[104]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[25]]></dcst:neighborhoodcluster>
+        <dcst:businessimprovementdistrict><![CDATA[]]></dcst:businessimprovementdistrict>
+		<dcst:block_group><![CDATA[008402 2]]></dcst:block_group>
+		<dcst:census_tract><![CDATA[008402]]></dcst:census_tract>
+		<dcst:voting_precinct><![CDATA[Precinct 82]]></dcst:voting_precinct>
+		<dcst:start_date><![CDATA[4/23/2016 8:00:21 AM]]></dcst:start_date>
+		<dcst:end_date><![CDATA[4/25/2016 5:42:04 PM]]></dcst:end_date>
+      </dcst:ReportedCrime>
+    </ReportedCrimes>
