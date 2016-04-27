@@ -34,6 +34,8 @@ public class SettingsActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
+        radiusBar=(SeekBar)findViewById(R.id.seekBarRadius);
+
         radiusVal=(TextView)findViewById(R.id.seekbarVal);
         radiusVal.setText(""+radiusBar.getProgress());
 
@@ -47,7 +49,7 @@ public class SettingsActivity extends Activity {
         car=(CheckBox)findViewById(R.id.carCheckBox);
         save=(Button) findViewById(R.id.submitButton);
         reset=(Button)findViewById(R.id.resetButton);
-        radiusBar=(SeekBar)findViewById(R.id.seekBarRadius);
+
 
 
 
@@ -61,7 +63,7 @@ public class SettingsActivity extends Activity {
         radiusBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                radiusVal.setText(seekBar.getProgress());
+                radiusVal.setText(""+seekBar.getProgress());
             }
 
             @Override
