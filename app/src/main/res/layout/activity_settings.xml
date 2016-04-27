@@ -53,57 +53,49 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Robbery"
-        android:id="@+id/robberyCheckBox"
+        android:text="Theft/Other"
+        android:id="@+id/theftCheckBox"
         android:layout_below="@+id/checkBoxHeader"
         android:layout_alignParentStart="true"
-        android:checked="false" />
+        android:checked="false"
+        android:layout_toStartOf="@+id/assaultCheckBox" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Shooting"
-        android:id="@+id/shootingCheckBox"
+        android:text="Robbery"
+        android:id="@+id/robberyCheckBox"
         android:checked="false"
-        android:layout_below="@+id/robberyCheckBox"
+        android:layout_alignTop="@+id/theftCheckBox"
+        android:layout_alignEnd="@+id/seekBarRadius" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assualt With Dangerous Weapon"
+        android:id="@+id/assaultCheckBox"
+        android:checked="false"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/autoCheckBox"
+        android:layout_alignEnd="@+id/autoCheckBox" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burglary"
+        android:id="@+id/burglaryCheckBox"
+        android:checked="false"
+        android:layout_centerVertical="true"
         android:layout_alignParentStart="true" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Protest"
-        android:id="@+id/protestCheckBox"
+        android:text="Theft f/Auto"
+        android:id="@+id/autoCheckBox"
         android:checked="false"
-        android:layout_below="@+id/shootingCheckBox"
-        android:layout_alignParentStart="true" />
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rape"
-        android:id="@+id/rapeCheckBox"
-        android:checked="false"
-        android:layout_below="@+id/protestCheckBox"
-        android:layout_alignParentStart="true" />
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Break-In"
-        android:id="@+id/breakCheckBox"
-        android:checked="false"
-        android:layout_marginEnd="19dp"
-        android:layout_alignTop="@+id/shootingCheckBox"
-        android:layout_alignEnd="@+id/settingsHeader" />
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Domestic Violence"
-        android:id="@+id/domesticCheckBox"
-        android:checked="false"
-        android:layout_above="@+id/shootingCheckBox"
-        android:layout_alignStart="@+id/breakCheckBox" />
+        android:layout_alignTop="@+id/theftCheckBox"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -120,5 +112,34 @@
         android:id="@+id/resetButton"
         android:layout_alignParentBottom="true"
         android:layout_toStartOf="@+id/settingsHeader" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motor Vehicle Theft"
+        android:id="@+id/carCheckBox"
+        android:checked="false"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/robberyCheckBox"
+        android:layout_alignEnd="@+id/robberyCheckBox" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexual Abuse"
+        android:id="@+id/sexCheckBox"
+        android:checked="false"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/assaultCheckBox"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homicide"
+        android:id="@+id/homicideCheckBox"
+        android:checked="false"
+        android:layout_alignTop="@+id/sexCheckBox"
+        android:layout_alignStart="@+id/assaultCheckBox" />
 
 </RelativeLayout>
