@@ -59,8 +59,9 @@ public class MainActivity extends FragmentActivity
     private HashMap<String,String> mSettings;
     private double mRadius = 5;
 
-    //first 2 digits control the transparency of the color
-    private final int RED_COLOR = 0x10ff0000;
+
+    private final int CIRCLE_SIZE = 1000;
+    private final int RED_COLOR = 0x10ff0000;//first 2 digits control the transparency of the color
     private final int START_ZOOM = 13; //change initial zoom with this
     private final String DATA = "ASAP__from03_27_2016__to04_07_2016.xml";
     private final String TAG = "MainActivity";
@@ -143,6 +144,7 @@ public class MainActivity extends FragmentActivity
         Marker marker= mMap.addMarker(new MarkerOptions()
                         .position(mWashington)
                         .title("You")
+                        .snippet("uh-oh...is crime nearby?")
                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
         );
         marker.showInfoWindow();
@@ -161,9 +163,6 @@ public class MainActivity extends FragmentActivity
             e.printStackTrace();
         }
         mCrimesList= mParser.nearestCrimes(Loc.latitude, Loc.longitude, mRadius);
-
-
-
         //Loop through and plot crimes
         List<Address> address;
         int i = 1;
@@ -185,11 +184,11 @@ public class MainActivity extends FragmentActivity
                     }
                 }
                 LatLng coor = new LatLng(address.get(0).getLatitude(), address.get(0).getLongitude());
-                Marker crime_marker = mMap.addMarker(new MarkerOptions().position(coor).title(c.offense
-                        + " @ " + c.address));
+                Marker crime_marker = mMap.addMarker(new MarkerOptions()
+                        .position(coor));
                 Circle crime_circle = mMap.addCircle(new CircleOptions()
                         .center(new LatLng(coor.latitude, coor.longitude))
-                        .radius(1000)
+                        .radius(CIRCLE_SIZE)
                         .strokeColor(Color.RED)
                         .fillColor(RED_COLOR));
                 c.circle = crime_circle;
@@ -317,6 +316,8 @@ public class MainActivity extends FragmentActivity
 
             }
             crime.setVisable(true);
+            crime.marker.setTitle(mSettings.get(crime.offense));
+            crime.marker.setSnippet(crime.address);
             if(i<MAX_CRIMES) {
                 continue;
             }else{
