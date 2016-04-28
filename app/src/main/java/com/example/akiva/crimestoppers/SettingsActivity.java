@@ -30,7 +30,7 @@ public class SettingsActivity extends Activity {
     final String ROBBERY = "ROBBERY";
     final String BURGLARY = "BURGLARY";
     final String MOTOR = "MOTOR VEHICLE THEFT";
-    final String ASSAULT = "ASSAULT";
+    final String ASSAULT = "ASSAULT W/DANGEROUS WEAPON";
     final String SEXUAL = "SEXUAL";
     final String HOMICIDE = "HOMICIDE";
 

@@ -66,7 +66,7 @@ public class MainActivity extends FragmentActivity
     private final String DATA = "ASAP__from03_27_2016__to04_07_2016.xml";
     private final String TAG = "MainActivity";
     private final int SETTINGS_REQUEST = 1;
-    private final int MAX_CRIMES = 10; //Chance plotted crimes with this
+    private final int MAX_CRIMES = 100; //Chance plotted crimes with this
     private LatLng mWashington = new LatLng(38.8951100, -77.0363700);
 
 
