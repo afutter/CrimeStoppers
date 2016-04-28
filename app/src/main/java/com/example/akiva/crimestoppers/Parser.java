@@ -56,8 +56,8 @@ public class Parser {
 				Crime newCrime;
 				String offense = null;
 				String address = null;
-				double xCoordinate = 0;
-				double yCoordinate = 0;
+				double LatCoordinate = 0;
+				double LongCoordinate = 0;
 
 				for(int j = 0; j < n2.getLength(); ++j) {
 
@@ -70,12 +70,12 @@ public class Parser {
 							offense = temp.getNodeValue();
 						} else if(nextAtt.getNodeName().compareTo("dcst:blockxcoord") == 0) {
 							Node temp = nextAtt.getFirstChild();
-							String xCoord = temp.getNodeValue();
-							xCoordinate = Double.parseDouble(xCoord) / 10000;
+							String latCoord = temp.getNodeValue();
+							LatCoordinate = Double.parseDouble(latCoord) / 10000;
 						} else if(nextAtt.getNodeName().compareTo("dcst:blockycoord") == 0) {
 							Node temp = nextAtt.getFirstChild();
-							String yCoord = temp.getNodeValue();
-							yCoordinate = (Double.parseDouble(yCoord) / 10000) - 90;
+							String longCoord = temp.getNodeValue();
+							LongCoordinate = (Double.parseDouble(longCoord) / 10000) - 90;
 						} else if(nextAtt.getNodeName().compareTo("dcst:blocksiteaddress") == 0) {
 							Node temp = nextAtt.getFirstChild();
 							address = temp.getNodeValue();
@@ -83,7 +83,7 @@ public class Parser {
 					}
 				}
 
-				newCrime = new Crime(offense, address, xCoordinate, yCoordinate);
+				newCrime = new Crime(offense, address, LatCoordinate, LongCoordinate);
 				if(crime_count.get(offense) == null) {
 					crime_count.put(offense, 1);
 				} else {
@@ -91,7 +91,7 @@ public class Parser {
 				}
 				data.add(newCrime);
 				//----------
-				//System.out.println(newCrime.xCoordinate  + "  -  " +newCrime.yCoordinate + "\n");
+				//System.out.println(newCrime.LatCoordinate  + "  -  " +newCrime.LongCoordinate + "\n");
 				//----------
 			}
 		}
@@ -100,11 +100,11 @@ public class Parser {
 		}
 	}
 
-	private TreeSet<Crime> nearestCrimes(double lat, double lon, int radius) {
+	public TreeSet<Crime> nearestCrimes(double lat, double lon, int radius) {
 
 		TreeSet<Crime> tree = new TreeSet<Crime>();
 		for (Crime c : data) {
-			c.distance = distance(lat, lon, c.xCoordinate, c.yCoordinate, "N");
+			c.distance = distance(lat, lon, c.Lat, c.Long, "N");
 			tree.add(c);
 		}
 		return tree;
@@ -116,9 +116,9 @@ public class Parser {
 		dist = Math.acos(dist);
 		dist = rad2deg(dist);
 		dist = dist * 60 * 1.1515;
-		if (unit == "K") {
+		if (unit.equals("K")) {
 			dist = dist * 1.609344;
-		} else if (unit == "N") {
+		} else if (unit.equals("N")) {
 			dist = dist * 0.8684;
 		}
 
