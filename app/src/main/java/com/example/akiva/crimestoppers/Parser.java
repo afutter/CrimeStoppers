@@ -100,7 +100,7 @@ public class Parser {
 		}
 	}
 
-	public TreeSet<Crime> nearestCrimes(double lat, double lon, int radius) {
+	public TreeSet<Crime> nearestCrimes(double lat, double lon, double radius) {
 
 		TreeSet<Crime> tree = new TreeSet<Crime>();
 		for (Crime c : data) {
