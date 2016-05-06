@@ -1,19 +1,18 @@
 package com.example.akiva.crimestoppers;
 
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
-import android.location.LocationListener;
 import android.location.LocationManager;
-import android.nfc.Tag;
+import android.media.RingtoneManager;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.content.ContextCompat;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.view.View;
 
@@ -34,10 +33,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
-import java.util.Set;
 import java.util.TreeSet;
 
 public class MainActivity extends FragmentActivity
@@ -65,6 +62,7 @@ public class MainActivity extends FragmentActivity
     private final int START_ZOOM = 13; //change initial zoom with this
     private final String DATA = "ASAP__from03_27_2016__to04_07_2016.xml";
     private final String TAG = "MainActivity";
+    public  final static String NOTIFICATION = "notification";
     private final int SETTINGS_REQUEST = 1;
     private final int MAX_CRIMES = 100; //Chance plotted crimes with this
     private LatLng mWashington = new LatLng(38.8951100, -77.0363700);
@@ -344,6 +342,38 @@ public class MainActivity extends FragmentActivity
 
     @Override
     public void onLocationChanged(Location location) {
+
+    }
+
+    private void sendPushNotification (String errorMessage){
+
+        //notification builder
+        NotificationCompat.Builder mBuilder =
+                new NotificationCompat.Builder(this)
+                        .setSmallIcon(R.drawable.ic_warning_24dp)
+                        .setContentTitle("DANGER!")
+                        .setContentText(errorMessage);
+
+        //create actual intent to pass warning over to notificationResultActivity so that way it can be displayed
+        Intent resultIntent= new Intent(this, NotificationResultActivity.class);
+        resultIntent.putExtra(NOTIFICATION, errorMessage);
+
+        PendingIntent resultPendingIntent =
+                PendingIntent.getActivity(
+                        this,
+                        0,
+                        resultIntent,
+                        PendingIntent.FLAG_UPDATE_CURRENT
+                );
+
+        mBuilder.setContentIntent(resultPendingIntent);
+        mBuilder.setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION));
+
+        int mNotificationId = 001;
+        // Gets an instance of the NotificationManager service
+        NotificationManager mNotifyMgr = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        // Builds the notification and issues it.
+        mNotifyMgr.notify(mNotificationId, mBuilder.build());
 
     }
 
