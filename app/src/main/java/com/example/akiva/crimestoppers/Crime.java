@@ -6,8 +6,7 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.Circle;
 
 public class Crime implements Comparable<Crime> {
-	String offense;
-	String address;
+	String address, start_date, offense, end_date;
 	double Lat;
 	double Long;
 	double distance;
@@ -15,12 +14,14 @@ public class Crime implements Comparable<Crime> {
 	Circle circle;
 	private boolean isVisable = true;//crimes are visable by default
 	
-	Crime (String offense, String address, double xCoordinate, double yCoordinate) {
+	Crime (String offense, String address, String start_date, String end_date, double xCoordinate, double yCoordinate) {
 		this.offense = offense;
 		this.address = address;
 		this.Lat = xCoordinate;
 		this.Long = yCoordinate;
 		this.distance = 0;
+		this.start_date = start_date;
+		this.end_date = end_date;
 	}
 
 	public int compareTo(Crime c2) {
