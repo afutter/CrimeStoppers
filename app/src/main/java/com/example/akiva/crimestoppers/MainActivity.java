@@ -342,12 +342,12 @@ public class MainActivity extends FragmentActivity
                 LatLng coor = new LatLng(address.get(0).getLatitude(), address.get(0).getLongitude());
                 Marker crime_marker = mMap.addMarker(new MarkerOptions()
                         .position(coor));
-                Circle crime_circle = mMap.addCircle(new CircleOptions()
+                /*Circle crime_circle = mMap.addCircle(new CircleOptions()
                         .center(new LatLng(coor.latitude, coor.longitude))
                         .radius(CIRCLE_SIZE)
                         .strokeColor(Color.RED)
                         .fillColor(RED_COLOR));
-                c.circle = crime_circle;
+                c.circle = crime_circle;*/
                 c.marker = crime_marker;
                 if(c.marker == null){
                     Log.i(TAG, "weee gotta nulllll marker!!!!");
@@ -420,6 +420,11 @@ public class MainActivity extends FragmentActivity
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if(!data.hasExtra("radius") || !data.hasExtra("checkboxes")){
+            Log.i(TAG, "no setting changes");
+            return;
+
+        }
         mSettings = (HashMap<String, String>) data.getSerializableExtra("checkboxes");
         mRadius =  data.getDoubleExtra("radius", mRadius);
         Log.i(TAG,"*********Back to MAIN_ACTIVITY*********");
