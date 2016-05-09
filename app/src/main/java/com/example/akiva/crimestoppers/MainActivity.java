@@ -465,7 +465,7 @@ public class MainActivity extends FragmentActivity
 
         }
         mSettings = (HashMap<String, String>) data.getSerializableExtra("checkboxes");
-        mRadius =  data.getDoubleExtra("radius", mRadius);
+        mRadius = data.getIntExtra("radius", -1);
         updateRadiusCircle();
 
         Log.i(TAG,"*********Back to MAIN_ACTIVITY*********");

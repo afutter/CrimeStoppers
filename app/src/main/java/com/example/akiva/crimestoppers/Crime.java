@@ -35,7 +35,7 @@ public class Crime implements Comparable<Crime> {
 	public void setVisable(boolean visability){
 		if(marker == null){
 			Log.i("MainActivity", "marker set to null");
-			
+
 		}else{
 			marker.setVisible(visability);
 		}

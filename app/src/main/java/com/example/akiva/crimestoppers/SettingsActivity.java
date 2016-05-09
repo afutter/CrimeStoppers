@@ -3,12 +3,15 @@ package com.example.akiva.crimestoppers;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.HashMap;
 
 /**
@@ -115,10 +118,12 @@ public class SettingsActivity extends Activity {
             public void onClick(View v) {
                 setSettings();
                 radius = radiusBar.getProgress();
+                Log.i("Settings", radius + " is the new radius");
                 Intent intent = new Intent(SettingsActivity.this, MainActivity.class);
                 intent.putExtra("checkboxes", tracking);
                 intent.putExtra("radius", radius);
                 setResult(RESULT_OK, intent);
+                Log.i("Settings", radius + " really is the new radius");
                 finish();
             }
         });
@@ -267,8 +272,11 @@ public class SettingsActivity extends Activity {
 
     }
     public static String checkTracking(String crimeType, double distance){
+        DecimalFormat df = new DecimalFormat("#.##");
+        df.setRoundingMode(RoundingMode.HALF_EVEN);
+
         if(tracking.containsKey(crimeType)){
-            return tracking.get(crimeType)+" "+distance+" miles away!";
+            return tracking.get(crimeType)+" "+df.format(distance)+" miles away!";
 
         }else {
             return "Not Tracking";
