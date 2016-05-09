@@ -6,6 +6,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -37,6 +38,8 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.Circle;
+import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -65,19 +68,20 @@ public class MainActivity extends FragmentActivity
     private TreeSet<Crime> mBadCrimesList = new TreeSet<Crime>();//for crimes with bad addresses
     private HashMap<String,String> mSettings;
     private double mRadius = 5;
+    private Circle mRadiusCircle;
 
 
-    private final int CIRCLE_SIZE = 1000;
-    private final int RED_COLOR = 0x10ff0000;//first 2 digits control the transparency of the color
+    private final double METERS_PER_MILE = 1609.34;
+    private final int BLUE_COLOR = 0x1099ccff;//first 2 digits control the transparency of the color
     private final int START_ZOOM = 12; //change initial zoom with this
     private final String DATA = "ASAP__from03_27_2016__to04_07_2016.xml";
     private final String TAG = "MainActivity";
     public  final static String NOTIFICATION = "notification";
     private final int SETTINGS_REQUEST = 1;
     private final int MAX_CRIMES = 100; //Chance plotted crimes with this
-    private LatLng mWashington = new LatLng(38.8951100, -77.0363700);
 
 
+    private  LatLng mCurrentLoc;
     private LatLng[] movement= new LatLng[4];
     private LocationManager mLocationManager;
 
@@ -136,6 +140,7 @@ public class MainActivity extends FragmentActivity
 
 
                 if (mLocationManager == null) {
+                    Log.i(TAG, "location manager was null");
                     turnOnLocationManager();
                 }
                 //make sure this crime has a pin, make all other pins invisible
@@ -162,6 +167,7 @@ public class MainActivity extends FragmentActivity
                     public void run() {
                         Log.i(TAG, "Pausing for 4 seconds");
                         updateLocation(movement[1]);
+                        updateRadiusCircle();
                         Log.i("Loop", "got to next i. i=" + 1);
                         for (Crime crime : mCrimesList) {
                             if (intersects(crime.Lat, crime.Long, movement[1].latitude, movement[1].longitude)) {
@@ -180,6 +186,7 @@ public class MainActivity extends FragmentActivity
                             public void run() {
                                 Log.i(TAG, "Pausing for 4 seconds");
                                 updateLocation(movement[2]);
+                                updateRadiusCircle();
                                 Log.i("Loop", "got to next i. i=" + 2);
                                 for (Crime crime : mCrimesList) {
                                     if (intersects(crime.Lat, crime.Long, movement[2].latitude, movement[2].longitude)) {
@@ -198,6 +205,7 @@ public class MainActivity extends FragmentActivity
                                     public void run() {
                                         Log.i(TAG, "Pausing for 4 seconds");
                                         updateLocation(movement[3]);
+                                        updateRadiusCircle();
                                         Log.i("Loop", "got to next i. i=" + 3);
                                         for (Crime crime : mCrimesList) {
                                             Log.i("Finally!!", "hit the scene");
@@ -300,13 +308,30 @@ public class MainActivity extends FragmentActivity
                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
         );
         marker.showInfoWindow();*/
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(mWashington));
-        mMap.animateCamera(CameraUpdateFactory.zoomTo(START_ZOOM), 2000, null);//2000 animates it for 2 seconds. Zoom lvl 10
+        updateScreenLoc(movement[0]);
+
+        loadCrimes(movement[0]);
+        //Start Parser;
         turnOnLocationManager();
         updateLocation(movement[0]);
-        loadCrimes(mWashington);
-        //Start Parser;
+        updateRadiusCircle();
 
+    }
+    private void updateRadiusCircle(){
+        if(mRadiusCircle != null) {
+            mRadiusCircle.setVisible(false);
+        }
+        mRadiusCircle = mMap.addCircle(new CircleOptions()
+                .center(new LatLng(mCurrentLoc.latitude, mCurrentLoc.longitude))
+                .radius(mRadius * METERS_PER_MILE)
+                .strokeColor(Color.BLUE)
+                .fillColor(BLUE_COLOR));
+        mRadiusCircle.setVisible(true);
+    }
+
+    private void updateScreenLoc(LatLng loc){
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(loc));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(START_ZOOM), 2000, null);//2000 animates it for 2 seconds. Zoom lvl 10
     }
 
     private void loadCrimes(LatLng Loc){
@@ -376,9 +401,16 @@ public class MainActivity extends FragmentActivity
             Log.i(TAG, "bad crime removed");
         }
     }
-    private void addCrime(){
-
-
+    private void addCrimeMarker(Crime c){
+        LatLng coor = new LatLng(c.Lat, c.Long);
+            Marker crime_marker = mMap.addMarker(new MarkerOptions()
+                    .position(coor));
+            c.marker = crime_marker;
+            if(c.marker == null){
+                Log.i(TAG, "weee gotta nulllll marker!!!!");
+            }
+            c.setVisable(true);
+            Log.i(TAG, "MockCrime:" + c.offense + " @ " + c.address + " PLOTTED");
     }
     /*:: Distance                                                                :*/
     /*::  Passed to function:                                                    :*/
@@ -433,6 +465,8 @@ public class MainActivity extends FragmentActivity
         }
         mSettings = (HashMap<String, String>) data.getSerializableExtra("checkboxes");
         mRadius =  data.getDoubleExtra("radius", mRadius);
+        updateRadiusCircle();
+
         Log.i(TAG,"*********Back to MAIN_ACTIVITY*********");
         Log.i(TAG, "SETTINGS DATA:");
         Log.i(TAG, mSettings.toString());
@@ -468,8 +502,8 @@ public class MainActivity extends FragmentActivity
             //
             double distance = distance(crime.Lat,
                     crime.Long,
-                    mWashington.latitude,
-                    mWashington.longitude,
+                    mCurrentLoc.latitude,
+                    mCurrentLoc.longitude,
                     "M");
             if(distance > mRadius ){
                 crime.setVisable(false);
@@ -570,6 +604,7 @@ public class MainActivity extends FragmentActivity
                 .setElapsedRealtimeNanos(SystemClock.elapsedRealtimeNanos());
         mockLocation.setAccuracy(5);
         mLocationManager.setTestProviderLocation(LocationManager.GPS_PROVIDER, mockLocation);
+        mCurrentLoc = location;
         Log.i("LocationUpdate", "should have been updated");
         //mMap.setLocationSource(new MyLocationSource(mockLocation));
 
