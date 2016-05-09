@@ -46,7 +46,6 @@
         android:layout_below="@+id/radiusHeader"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:progress="5"
         android:max="10"/>
 
     <TextView

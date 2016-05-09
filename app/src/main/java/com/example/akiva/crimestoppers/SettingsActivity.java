@@ -38,7 +38,7 @@ public class SettingsActivity extends Activity {
     Button reset;
     SeekBar radiusBar;
     public static HashMap<String, String> tracking= new HashMap<String, String>();
-    public static double radius;
+    public static int radius;
     private int progress;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +52,7 @@ public class SettingsActivity extends Activity {
 
         theft=(CheckBox) findViewById(R.id.theftCheckBox);
         robbery=(CheckBox) findViewById(R.id.robberyCheckBox);
-        assault=(CheckBox) findViewById(R.id.burglaryCheckBox);
+        assault=(CheckBox) findViewById(R.id.assaultCheckBox);
         burglary= (CheckBox) findViewById(R.id.burglaryCheckBox);
         fromautoTheft= (CheckBox) findViewById(R.id.carJackCheckBox);
         sexualAbuse=(CheckBox) findViewById(R.id.sexCheckBox);
@@ -64,7 +64,7 @@ public class SettingsActivity extends Activity {
 
         if(getIntent()!=null){
             Intent intent = getIntent();
-            radius = intent.getDoubleExtra("radius", radius);
+            radius = intent.getIntExtra("radius", radius);
             radiusVal.setText(radius + "");
             if(intent.hasExtra("checkboxes")){
                 tracking = (HashMap<String,String>) intent.getSerializableExtra("checkboxes");
@@ -92,8 +92,10 @@ public class SettingsActivity extends Activity {
 
         radiusBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
-            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+            public void onProgressChanged(SeekBar seekBar, int incomingProgress, boolean fromUser) {
                 radiusVal.setText(""+seekBar.getProgress());
+                radiusBar.setProgress(incomingProgress);
+                progress=incomingProgress;
             }
 
             @Override
@@ -132,6 +134,7 @@ public class SettingsActivity extends Activity {
                 homicide.setChecked(false);
                 car.setChecked(false);
                 radiusBar.setProgress(5);
+                progress=5;
 
             }
         });
@@ -151,6 +154,7 @@ public class SettingsActivity extends Activity {
         savedInstanceState.putBoolean("homicide", homicide.isChecked());
         savedInstanceState.putBoolean("car", car.isChecked());
         savedInstanceState.putInt("radiusBar", radiusBar.getProgress());
+        savedInstanceState.putInt("progress", progress);
     }
     @Override
     public void onRestoreInstanceState(Bundle savedInstanceState) {
@@ -164,7 +168,7 @@ public class SettingsActivity extends Activity {
         sexualAbuse.setChecked(savedInstanceState.getBoolean("sexualAbuse"));
         homicide.setChecked(savedInstanceState.getBoolean("homicide"));
         car.setChecked(savedInstanceState.getBoolean("car"));
-        radiusBar.setProgress(savedInstanceState.getInt("radiusBar"));
+        radiusBar.setProgress(savedInstanceState.getInt("progress"));
 
 
     }
