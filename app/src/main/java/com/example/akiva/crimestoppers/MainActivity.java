@@ -41,6 +41,7 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.Circle;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -72,13 +73,13 @@ public class MainActivity extends FragmentActivity
 
 
     private final double METERS_PER_MILE = 1609.34;
-    private final int BLUE_COLOR = 0x1099ccff;//first 2 digits control the transparency of the color
+    private final int BLUE_COLOR = 0x2599ccff;//first 2 digits control the transparency of the color
     private final int START_ZOOM = 12; //change initial zoom with this
     private final String DATA = "ASAP__from03_27_2016__to04_07_2016.xml";
     private final String TAG = "MainActivity";
     public  final static String NOTIFICATION = "notification";
     private final int SETTINGS_REQUEST = 1;
-    private final int MAX_CRIMES = 100; //Chance plotted crimes with this
+    private final int MAX_CRIMES = 10; //Chance plotted crimes with this
 
 
     private  LatLng mCurrentLoc;
@@ -145,8 +146,13 @@ public class MainActivity extends FragmentActivity
                 }
                 //make sure this crime has a pin, make all other pins invisible
                 Crime c = new Crime("HOMICIDE", "1369 Connecticut Ave NW, Washington, DC 20036, USA", "n/a", "n/a", 38.909627, -77.043381);
+                if(mCrimesList.contains(c)){
+                    c.setVisable(false);
+                    mCrimesList.remove(c);
+                }
                 mCrimesList.add(c);
                 addCrimeMarker(c);
+                c.setVisable(true);
                 //for (int i = 0; i < movement.length; i++) {
 
 
@@ -169,6 +175,7 @@ public class MainActivity extends FragmentActivity
                         Log.i(TAG, "Pausing for 4 seconds");
                         updateLocation(movement[1]);
                         updateRadiusCircle();
+                        adjustToRadius();
                         Log.i("Loop", "got to next i. i=" + 1);
                         for (Crime crime : mCrimesList) {
                             if (intersects(crime.Lat, crime.Long, movement[1].latitude, movement[1].longitude)) {
@@ -188,6 +195,7 @@ public class MainActivity extends FragmentActivity
                                 Log.i(TAG, "Pausing for 4 seconds");
                                 updateLocation(movement[2]);
                                 updateRadiusCircle();
+                                adjustToRadius();
                                 Log.i("Loop", "got to next i. i=" + 2);
                                 for (Crime crime : mCrimesList) {
                                     if (intersects(crime.Lat, crime.Long, movement[2].latitude, movement[2].longitude)) {
@@ -207,6 +215,7 @@ public class MainActivity extends FragmentActivity
                                         Log.i(TAG, "Pausing for 4 seconds");
                                         updateLocation(movement[3]);
                                         updateRadiusCircle();
+                                        adjustToRadius();
                                         Log.i("Loop", "got to next i. i=" + 3);
                                         for (Crime crime : mCrimesList) {
                                             Log.i("Finally!!", "hit the scene");
@@ -333,6 +342,13 @@ public class MainActivity extends FragmentActivity
     private void updateScreenLoc(LatLng loc){
         mMap.moveCamera(CameraUpdateFactory.newLatLng(loc));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(START_ZOOM), 2000, null);//2000 animates it for 2 seconds. Zoom lvl 10
+    }
+    private void adjustToRadius(){
+        float distance = (float)(2 *METERS_PER_MILE * mRadius);
+        LatLngBounds bounds = boundsWithCenterAndLatLngDistance(
+                new LatLng(mCurrentLoc.latitude, mCurrentLoc.longitude)
+                ,distance,distance);
+        mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(bounds,0),1000, null);
     }
 
     private void loadCrimes(LatLng Loc){
@@ -467,6 +483,8 @@ public class MainActivity extends FragmentActivity
         mSettings = (HashMap<String, String>) data.getSerializableExtra("checkboxes");
         mRadius = data.getIntExtra("radius", -1);
         updateRadiusCircle();
+        adjustToRadius();
+
 
         Log.i(TAG,"*********Back to MAIN_ACTIVITY*********");
         Log.i(TAG, "SETTINGS DATA:");
@@ -483,11 +501,11 @@ public class MainActivity extends FragmentActivity
             Log.i(TAG, mSettings.keySet().size() + "!");
             for(String offense: mSettings.keySet()){
                 if(crime.offense.equals(offense)){
-                    Log.i(TAG,  crime.offense+ "!=" + offense);
+                    Log.i(TAG,  crime.offense+ "=" + offense + ", " + crime.address);
                         visable = true;
                     //if the crime matches one of the offenses no need to match other offenses
                 }else{
-                    Log.i(TAG,  crime.offense+ "!=" + offense);
+                    Log.i(TAG,  crime.offense+ "!=" + offense + ", " + crime.address);
                 }
             }
             if(visable == false){
@@ -622,5 +640,90 @@ public class MainActivity extends FragmentActivity
         }
     }
 
+
+    private static final double ASSUMED_INIT_LATLNG_DIFF = 1.0;
+    private static final float ACCURACY = 0.01f;
+
+    public static LatLngBounds boundsWithCenterAndLatLngDistance(LatLng center, float latDistanceInMeters, float lngDistanceInMeters) {
+        latDistanceInMeters /= 2;
+        lngDistanceInMeters /= 2;
+        LatLngBounds.Builder builder = LatLngBounds.builder();
+        float[] distance = new float[1];
+        {
+            boolean foundMax = false;
+            double foundMinLngDiff = 0;
+            double assumedLngDiff = ASSUMED_INIT_LATLNG_DIFF;
+            do {
+                Location.distanceBetween(center.latitude, center.longitude, center.latitude, center.longitude + assumedLngDiff, distance);
+                float distanceDiff = distance[0] - lngDistanceInMeters;
+                if (distanceDiff < 0) {
+                    if (!foundMax) {
+                        foundMinLngDiff = assumedLngDiff;
+                        assumedLngDiff *= 2;
+                    } else {
+                        double tmp = assumedLngDiff;
+                        assumedLngDiff += (assumedLngDiff - foundMinLngDiff) / 2;
+                        foundMinLngDiff = tmp;
+                    }
+                } else {
+                    assumedLngDiff -= (assumedLngDiff - foundMinLngDiff) / 2;
+                    foundMax = true;
+                }
+            } while (Math.abs(distance[0] - lngDistanceInMeters) > lngDistanceInMeters * ACCURACY);
+            LatLng east = new LatLng(center.latitude, center.longitude + assumedLngDiff);
+            builder.include(east);
+            LatLng west = new LatLng(center.latitude, center.longitude - assumedLngDiff);
+            builder.include(west);
+        }
+        {
+            boolean foundMax = false;
+            double foundMinLatDiff = 0;
+            double assumedLatDiffNorth = ASSUMED_INIT_LATLNG_DIFF;
+            do {
+                Location.distanceBetween(center.latitude, center.longitude, center.latitude + assumedLatDiffNorth, center.longitude, distance);
+                float distanceDiff = distance[0] - latDistanceInMeters;
+                if (distanceDiff < 0) {
+                    if (!foundMax) {
+                        foundMinLatDiff = assumedLatDiffNorth;
+                        assumedLatDiffNorth *= 2;
+                    } else {
+                        double tmp = assumedLatDiffNorth;
+                        assumedLatDiffNorth += (assumedLatDiffNorth - foundMinLatDiff) / 2;
+                        foundMinLatDiff = tmp;
+                    }
+                } else {
+                    assumedLatDiffNorth -= (assumedLatDiffNorth - foundMinLatDiff) / 2;
+                    foundMax = true;
+                }
+            } while (Math.abs(distance[0] - latDistanceInMeters) > latDistanceInMeters * ACCURACY);
+            LatLng north = new LatLng(center.latitude + assumedLatDiffNorth, center.longitude);
+            builder.include(north);
+        }
+        {
+            boolean foundMax = false;
+            double foundMinLatDiff = 0;
+            double assumedLatDiffSouth = ASSUMED_INIT_LATLNG_DIFF;
+            do {
+                Location.distanceBetween(center.latitude, center.longitude, center.latitude - assumedLatDiffSouth, center.longitude, distance);
+                float distanceDiff = distance[0] - latDistanceInMeters;
+                if (distanceDiff < 0) {
+                    if (!foundMax) {
+                        foundMinLatDiff = assumedLatDiffSouth;
+                        assumedLatDiffSouth *= 2;
+                    } else {
+                        double tmp = assumedLatDiffSouth;
+                        assumedLatDiffSouth += (assumedLatDiffSouth - foundMinLatDiff) / 2;
+                        foundMinLatDiff = tmp;
+                    }
+                } else {
+                    assumedLatDiffSouth -= (assumedLatDiffSouth - foundMinLatDiff) / 2;
+                    foundMax = true;
+                }
+            } while (Math.abs(distance[0] - latDistanceInMeters) > latDistanceInMeters * ACCURACY);
+            LatLng south = new LatLng(center.latitude - assumedLatDiffSouth, center.longitude);
+            builder.include(south);
+        }
+        return builder.build();
+    }
 
 }
