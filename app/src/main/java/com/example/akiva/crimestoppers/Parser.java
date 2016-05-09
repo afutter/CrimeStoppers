@@ -7,10 +7,14 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.StringReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -47,24 +51,19 @@ public class Parser {
 		return 1;
 	}
 
-
 	public int parse() {
 
 		int count = 0;
-		if (mLink != null){
+		if (mLink == null)
 			mLink = new crimeSync();
 
 			try {
-				count = mLink.get();
+				count = mLink.execute().get();
 			} catch(InterruptedException e) {
 				e.printStackTrace();
 			} catch (ExecutionException e) {
 				e.printStackTrace();
 			}
-
-		}
-
-		System.out.println(data.get(0).start_date);
 
 		return count;
 	}
@@ -72,7 +71,7 @@ public class Parser {
 	private class crimeSync extends AsyncTask<Void, Void, Integer> {
 
 		private HttpURLConnection cn;
-		private InputStream bits;
+		private BufferedReader bits;
 
 		protected Integer doInBackground(Void... params) {
 
@@ -81,14 +80,25 @@ public class Parser {
 			try {
 				URL url = new URL(LIVE_URL);
 				cn = (HttpURLConnection) url.openConnection();
+				bits = new BufferedReader(new InputStreamReader(
+						cn.getInputStream()));
 
-				bits = cn.getInputStream();
+				StringBuffer sb = new StringBuffer("");
 
-				ret = liveParse(bits);
+				String line = "";
+				while ((line = bits.readLine()) != null) {
+					sb.append(line + "\n");
+				}
+
+				String result = sb.toString();
+
+				ret = liveParse(result);
 
 			} catch (MalformedURLException e) {
+				e.printStackTrace();
 				Log.e("DEBUG", e.toString());
 			} catch (IOException e) {
+				e.printStackTrace();
 				Log.e("DEBUG", e.toString());
 			} finally {
 				try {
@@ -104,8 +114,7 @@ public class Parser {
 			return Integer.valueOf(ret);
 		}
 
-		public int liveParse(InputStream in) {
-
+		public int liveParse(String in) {
 			//holds position to insert new crimes in the front of the linkedlist
 			//First crime inserted at front, then second, then third and so on until
 			//no more crimes are available. The caller then knows how many crimes are new to query
@@ -121,10 +130,12 @@ public class Parser {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
+
 			Document doc = null;
 
 			try {
-				doc = dBuilder.parse(in);
+				doc = dBuilder.parse(new InputSource(new StringReader(
+						in)));
 			} catch (SAXException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -135,7 +146,9 @@ public class Parser {
 			}
 
 			Element docElement = doc.getDocumentElement();
+
 			NodeList n1 = docElement.getChildNodes();
+
 
 			for (int i = 0; i < n1.getLength(); ++i) { //this is a convoluted mess
 
@@ -170,30 +183,60 @@ public class Parser {
 
 												if (nextAtt.getNodeName().compareTo("dcst:offense") == 0) {
 													Node temp = nextAtt.getFirstChild();
-													offense = temp.getNodeValue();
+													if (temp == null)
+														offense = "No end date provided";
+													else
+														offense = temp.getNodeValue();
+
 												} else if (nextAtt.getNodeName().compareTo("dcst:blockxcoord") == 0) {
 													Node temp = nextAtt.getFirstChild();
-													String xCoord = temp.getNodeValue();
-													LatCoordinate = Double.parseDouble(xCoord);
+
+													if (temp == null)
+														LatCoordinate = -1;
+													else {
+														String xCoord = temp.getNodeValue();
+														LatCoordinate = Double.parseDouble(xCoord);
+													}
+
 												} else if (nextAtt.getNodeName().compareTo("dcst:blockycoord") == 0) {
 													Node temp = nextAtt.getFirstChild();
-													String yCoord = temp.getNodeValue();
-													LongCoordinate = Double.parseDouble(yCoord);
+
+													if (temp == null)
+														LongCoordinate = -1;
+													else {
+														String yCoord = temp.getNodeValue();
+														LongCoordinate = Double.parseDouble(yCoord);
+													}
+
 												} else if (nextAtt.getNodeName().compareTo("dcst:blocksiteaddress") == 0) {
 													Node temp = nextAtt.getFirstChild();
-													address = temp.getNodeValue();
+
+													if (temp == null)
+														address = "No end date provided";
+													else
+														address = temp.getNodeValue();
+
 												} else if (nextAtt.getNodeName().compareTo("dcst:start_date") == 0) {
 													Node temp = nextAtt.getFirstChild();
-													start = temp.getNodeValue();
+
+													if (temp == null)
+														start = "No end date provided";
+													else
+														start = temp.getNodeValue();
+
 												} else if (nextAtt.getNodeName().compareTo("dcst:end_date") == 0) {
 													Node temp = nextAtt.getFirstChild();
-													end = temp.getNodeValue();
+
+													if (temp == null)
+														end = "No end date provided";
+													else
+														end = temp.getNodeValue();
 												}
 											}
 										}
 
 										newCrime = new Crime(offense, address, start, end, LatCoordinate, LongCoordinate);
-
+										//System.out.println(newCrime.Lat  + "  -  " +newCrime.Long + "\n");
 										if (data.contains(newCrime)) {
 
 											return newPos;
