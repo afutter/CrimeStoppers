@@ -15,6 +15,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -66,6 +67,7 @@ public class MainActivity extends FragmentActivity
     private final int SETTINGS_REQUEST = 1;
     private final int MAX_CRIMES = 100; //Chance plotted crimes with this
     private LatLng mWashington = new LatLng(38.8951100, -77.0363700);
+    private LatLng[] movement= new LatLng[5];
 
 
 
@@ -74,6 +76,10 @@ public class MainActivity extends FragmentActivity
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        Button demo= (Button) findViewById(R.id.demo);
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -105,6 +111,14 @@ public class MainActivity extends FragmentActivity
                     .addApi(LocationServices.API)
                     .build();
         }
+        demo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 1) inject crime
+
+
+            }
+        });
 
 
 
@@ -220,7 +234,7 @@ public class MainActivity extends FragmentActivity
             Log.i(TAG, "bad crime removed");
         }
     }
-    private void addCrime( Crime crime){
+    private void addCrime(){
 
 
     }
