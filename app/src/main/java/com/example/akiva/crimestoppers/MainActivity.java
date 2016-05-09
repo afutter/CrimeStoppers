@@ -6,7 +6,6 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -38,8 +37,6 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.android.gms.maps.model.Circle;
-import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -573,10 +570,10 @@ public class MainActivity extends FragmentActivity
         mLocationManager.removeTestProvider(LocationManager.GPS_PROVIDER);
     }
     public boolean intersects(double Lat1, double Long1, double Lat2, double Long2){
-        if(distance(Lat1, Long2, Lat2, Long2, "M") <= mRadius){
+        if(distance(Lat1, Long1, Lat2, Long2, "M") <= mRadius){
             return true;
         }else{
-            return true;
+            return false;
         }
     }
 
