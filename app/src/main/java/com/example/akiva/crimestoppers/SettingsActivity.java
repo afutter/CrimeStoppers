@@ -46,7 +46,7 @@ public class SettingsActivity extends Activity {
         setContentView(R.layout.activity_settings);
 
         radiusBar=(SeekBar)findViewById(R.id.seekBarRadius);
-
+        radiusBar.setProgress(5);
         radiusVal=(TextView)findViewById(R.id.seekbarVal);
         radiusVal.setText(""+radiusBar.getProgress());
 
@@ -112,7 +112,7 @@ public class SettingsActivity extends Activity {
             @Override
             public void onClick(View v) {
                 setSettings();
-                radius=radiusBar.getProgress();
+                radius = radiusBar.getProgress();
                 Intent intent = new Intent(SettingsActivity.this, MainActivity.class);
                 intent.putExtra("checkboxes", tracking);
                 intent.putExtra("radius", radius);
@@ -120,9 +120,57 @@ public class SettingsActivity extends Activity {
                 finish();
             }
         });
+        reset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                theft.setChecked(false);
+                robbery.setChecked(false);
+                assault.setChecked(false);
+                burglary.setChecked(false);
+                fromautoTheft.setChecked(false);
+                sexualAbuse.setChecked(false);
+                homicide.setChecked(false);
+                car.setChecked(false);
+                radiusBar.setProgress(5);
+
+            }
+        });
+
 
 
     }
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putBoolean("theft", theft.isChecked());
+        savedInstanceState.putBoolean("robbery", robbery.isChecked());
+        savedInstanceState.putBoolean("assault", assault.isChecked());
+        savedInstanceState.putBoolean("burglary", burglary.isChecked());
+        savedInstanceState.putBoolean("fromautoTheft", fromautoTheft.isChecked());
+        savedInstanceState.putBoolean("sexualAbuse", sexualAbuse.isChecked());
+        savedInstanceState.putBoolean("homicide", homicide.isChecked());
+        savedInstanceState.putBoolean("car", car.isChecked());
+        savedInstanceState.putInt("radiusBar", radiusBar.getProgress());
+    }
+    @Override
+    public void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+        theft.setChecked(savedInstanceState.getBoolean("theft"));
+        robbery.setChecked(savedInstanceState.getBoolean("robbery"));
+        assault.setChecked(savedInstanceState.getBoolean("assault"));
+        burglary.setChecked(savedInstanceState.getBoolean("burglary"));
+        fromautoTheft.setChecked(savedInstanceState.getBoolean("fromautoTheft"));
+        sexualAbuse.setChecked(savedInstanceState.getBoolean("sexualAbuse"));
+        homicide.setChecked(savedInstanceState.getBoolean("homicide"));
+        car.setChecked(savedInstanceState.getBoolean("car"));
+        radiusBar.setProgress(savedInstanceState.getInt("radiusBar"));
+
+
+    }
+
+
+
     /*Keys
     * Theft, Robbery,Assault,Burglary,FromAutoTheft,sexualAbuse,Homicide,Car
     * */
