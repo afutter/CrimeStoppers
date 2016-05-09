@@ -417,6 +417,14 @@ public class MainActivity extends FragmentActivity
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if(requestCode != SETTINGS_REQUEST){
+            Log.i(TAG, "onActivityResult():incorrect Request Code!");
+            return;
+        }
+        if(resultCode == RESULT_CANCELED){
+            Log.i(TAG, "onActivityResult(): user backed out of settings page!");
+            return;
+        }
         if(!data.hasExtra("radius") || !data.hasExtra("checkboxes")){
             Log.i(TAG, "no setting changes");
             return;
