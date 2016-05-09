@@ -35,14 +35,21 @@ public class Parser {
 
 	Hashtable<String, Integer> crime_count = new Hashtable<String, Integer>(100);
 
-	public static LinkedList<Crime> data = new LinkedList<Crime>();
+	public LinkedList<Crime> data = new LinkedList<Crime>();
 
 	public crimeSync mLink;
 
 	private final String LIVE_URL =
 			"http://data.octo.dc.gov/feeds/crime_incidents/crime_incidents_current.xml";
 
+	public int injectCrime(Crime c) {
+		data.add(0, c);
+		return 1;
+	}
+
+
 	public int parse() {
+
 		int count = 0;
 		if (mLink != null){
 			mLink = new crimeSync();
@@ -57,12 +64,16 @@ public class Parser {
 
 		}
 
+		System.out.println(data.get(0).start_date);
+
 		return count;
 	}
 
 	private class crimeSync extends AsyncTask<Void, Void, Integer> {
+
 		private HttpURLConnection cn;
 		private InputStream bits;
+
 		protected Integer doInBackground(Void... params) {
 
 			int ret = 0;
@@ -125,66 +136,83 @@ public class Parser {
 
 			Element docElement = doc.getDocumentElement();
 			NodeList n1 = docElement.getChildNodes();
-			for(int i = 0; i < n1.getLength(); ++i) {
 
-				Node nextCrime = n1.item(i);
+			for (int i = 0; i < n1.getLength(); ++i) { //this is a convoluted mess
 
-				if (nextCrime.getNodeType() == Node.ELEMENT_NODE) {
-					NodeList n2 = nextCrime.getChildNodes();
+				Node base = n1.item(i);
+				//System.out.println(base.getNodeName());
+				if (base.getNodeName().equals("entry")) {
+					NodeList entryChildren = base.getChildNodes();
+					for (int k = 0; k < entryChildren.getLength(); k++) { //entry children
+						Node temp2 = entryChildren.item(k);
+						if (temp2.getNodeName().equals("content")) { // in content
+							//System.out.println(temp2.getNodeName());
+							NodeList temp3 = temp2.getChildNodes();
+							for (int z = 0; z < temp3.getLength(); z++) {
+								Node temp4 = temp3.item(z);
+								if (temp4.getNodeName().equals("dcst:ReportedCrime")) {
 
-					Crime newCrime;
-					String offense = null;
-					String address = null;
-					String start = null, end = null;
-					double LatCoordinate = 0;
-					double LongCoordinate = 0;
+									if (temp4.getNodeType() == Node.ELEMENT_NODE) {
+										NodeList n2 = temp4.getChildNodes();
 
-					for(int j = 0; j < n2.getLength(); ++j) {
+										Crime newCrime = null;
+										String offense = null;
+										String address = null;
+										String start = null, end = null;
+										double LatCoordinate = 0;
+										double LongCoordinate = 0;
 
-						Node nextAtt = n2.item(j);
+										for (int j = 0; j < n2.getLength(); ++j) {
 
-						if (nextAtt.getNodeType() == Node.ELEMENT_NODE) {
+											Node nextAtt = n2.item(j);
 
-							if(nextAtt.getNodeName().compareTo("dcst:offense") == 0) {
-								Node temp = nextAtt.getFirstChild();
-								offense = temp.getNodeValue();
-							} else if(nextAtt.getNodeName().compareTo("dcst:blockxcoord") == 0) {
-								Node temp = nextAtt.getFirstChild();
-								String latCoord = temp.getNodeValue();
-								LatCoordinate = Double.parseDouble(latCoord) / 10000;
-							} else if(nextAtt.getNodeName().compareTo("dcst:blockycoord") == 0) {
-								Node temp = nextAtt.getFirstChild();
-								String longCoord = temp.getNodeValue();
-								LongCoordinate = (Double.parseDouble(longCoord) / 10000) - 90;
-							} else if(nextAtt.getNodeName().compareTo("dcst:blocksiteaddress") == 0) {
-								Node temp = nextAtt.getFirstChild();
-								address = temp.getNodeValue();
-							} else if(nextAtt.getNodeName().compareTo("dcst:start_date") == 0) {
-								Node temp = nextAtt.getFirstChild();
-								start = temp.getNodeValue();
-							} else if(nextAtt.getNodeName().compareTo("dcst:end_date") == 0) {
-								Node temp = nextAtt.getFirstChild();
-								end = temp.getNodeValue();
+											if (nextAtt.getNodeType() == Node.ELEMENT_NODE) {
+
+												if (nextAtt.getNodeName().compareTo("dcst:offense") == 0) {
+													Node temp = nextAtt.getFirstChild();
+													offense = temp.getNodeValue();
+												} else if (nextAtt.getNodeName().compareTo("dcst:blockxcoord") == 0) {
+													Node temp = nextAtt.getFirstChild();
+													String xCoord = temp.getNodeValue();
+													LatCoordinate = Double.parseDouble(xCoord);
+												} else if (nextAtt.getNodeName().compareTo("dcst:blockycoord") == 0) {
+													Node temp = nextAtt.getFirstChild();
+													String yCoord = temp.getNodeValue();
+													LongCoordinate = Double.parseDouble(yCoord);
+												} else if (nextAtt.getNodeName().compareTo("dcst:blocksiteaddress") == 0) {
+													Node temp = nextAtt.getFirstChild();
+													address = temp.getNodeValue();
+												} else if (nextAtt.getNodeName().compareTo("dcst:start_date") == 0) {
+													Node temp = nextAtt.getFirstChild();
+													start = temp.getNodeValue();
+												} else if (nextAtt.getNodeName().compareTo("dcst:end_date") == 0) {
+													Node temp = nextAtt.getFirstChild();
+													end = temp.getNodeValue();
+												}
+											}
+										}
+
+										newCrime = new Crime(offense, address, start, end, LatCoordinate, LongCoordinate);
+
+										if (data.contains(newCrime)) {
+
+											return newPos;
+
+										} else {
+
+											data.add(newPos++, newCrime);
+
+										}
+									}
+								}
 							}
 						}
 					}
-					newCrime = new Crime(offense, address, start, end, LatCoordinate, LongCoordinate);
-
-					if (data.contains(newCrime)) {
-
-						return newPos;
-
-					} else {
-
-						data.add(newPos++, newCrime);
-
-					}
 				}
-
 			}
-
 			return newPos;
 		}
+
 
 	}
 

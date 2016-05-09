@@ -49,4 +49,11 @@ public class Crime implements Comparable<Crime> {
 		return isVisable;
 	}
 
+	public boolean equals(Crime c) {
+		return (c.end_date.equals(this.end_date) && c.start_date.equals(this.start_date) &&
+		c.address.equals(this.address) && c.offense.equals(this.offense) && c.Lat==this.Lat
+		&& c.Long==this.Long);
+
+	}
+
 }
