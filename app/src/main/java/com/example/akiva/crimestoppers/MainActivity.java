@@ -133,12 +133,12 @@ public class MainActivity extends FragmentActivity
         demo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 1) inject crime
+
 
                 if (mLocationManager == null) {
                     turnOnLocationManager();
                 }
-
+                //make sure this crime has a pin, make all other pins invisible
                 Crime c = new Crime("HOMICIDE", "1369 Connecticut Ave NW, Washington, DC 20036, USA", "n/a", "n/a", 38.909627, -77.043381);
                 mCrimesList.add(c);
                 //for (int i = 0; i < movement.length; i++) {
