@@ -49,7 +49,7 @@ public class SettingsActivity extends Activity {
         setContentView(R.layout.activity_settings);
 
         radiusBar=(SeekBar)findViewById(R.id.seekBarRadius);
-        radiusBar.setProgress(5);
+
         radiusVal=(TextView)findViewById(R.id.seekbarVal);
         radiusVal.setText(""+radiusBar.getProgress());
 
@@ -67,8 +67,11 @@ public class SettingsActivity extends Activity {
 
         if(getIntent()!=null){
             Intent intent = getIntent();
-            radius = intent.getIntExtra("radius", radius);
-            radiusVal.setText(radius + "");
+            radius = (int)intent.getDoubleExtra("radius", 0.00);
+            Log.i("Settings", "Radius from main says " + radius);
+            radiusBar.setProgress(radius);
+            progress=radius;
+            radiusVal.setText(""+radiusBar.getProgress());
             if(intent.hasExtra("checkboxes")){
                 tracking = (HashMap<String,String>) intent.getSerializableExtra("checkboxes");
                 for(String offense: tracking.keySet()) {
