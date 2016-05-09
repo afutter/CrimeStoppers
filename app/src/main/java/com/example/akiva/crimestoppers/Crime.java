@@ -35,13 +35,13 @@ public class Crime implements Comparable<Crime> {
 	public void setVisable(boolean visability){
 		if(marker == null){
 			Log.i("MainActivity", "marker set to null");
-			return;
+			
 		}else{
 			marker.setVisible(visability);
 		}
 		if(circle == null){
 			Log.i("MainActivity", "circle set to null");
-			return;
+
 		}else{
 			circle.setVisible(visability);
 		}
