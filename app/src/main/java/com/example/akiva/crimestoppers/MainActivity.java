@@ -143,8 +143,7 @@ public class MainActivity extends FragmentActivity
                 mCrimesList.add(c);
                 //for (int i = 0; i < movement.length; i++) {
 
-                turnOnLocationManager();
-                    updateLocation(movement[0]);
+
                     Log.i("Loop", "got to next i. i=" + 0);
                     for (Crime crime : mCrimesList) {
                         if (intersects(crime.Lat, crime.Long, movement[0].latitude, movement[0].longitude)) {
@@ -294,15 +293,17 @@ public class MainActivity extends FragmentActivity
         mGeocoder = new Geocoder(this, Locale.getDefault());
         // Add a marker in Washington and move the camera
 
-        Marker marker= mMap.addMarker(new MarkerOptions()
+        /*Marker marker= mMap.addMarker(new MarkerOptions()
                         .position(mWashington)
                         .title("You")
                         .snippet("uh-oh...is crime nearby?")
                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
         );
-        marker.showInfoWindow();
+        marker.showInfoWindow();*/
         mMap.moveCamera(CameraUpdateFactory.newLatLng(mWashington));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(START_ZOOM), 2000, null);//2000 animates it for 2 seconds. Zoom lvl 10
+        turnOnLocationManager();
+        updateLocation(movement[0]);
         loadCrimes(mWashington);
         //Start Parser;
 
