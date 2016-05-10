@@ -25,6 +25,7 @@ import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -37,7 +38,6 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.Circle;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
@@ -155,7 +155,9 @@ public class MainActivity extends FragmentActivity
                 c.setVisable(true);
                 //for (int i = 0; i < movement.length; i++) {
 
-
+                    updateLocation(movement[0]);
+                    updateRadiusCircle();
+                    adjustToRadius();
                     Log.i("Loop", "got to next i. i=" + 0);
                     for (Crime crime : mCrimesList) {
                         if (intersects(crime.Lat, crime.Long, movement[0].latitude, movement[0].longitude)) {
@@ -204,6 +206,7 @@ public class MainActivity extends FragmentActivity
                                                 distance(crime.Lat, crime.Long, movement[2].latitude, movement[2].longitude, "M"));
                                         if (!tracker.equals("Not Tracking")) {
                                             sendPushNotification(tracker);
+                                            Toast.makeText(getApplicationContext(), tracker, Toast.LENGTH_LONG).show();
 
                                         }
                                     }
@@ -225,7 +228,7 @@ public class MainActivity extends FragmentActivity
                                                 String tracker = SettingsActivity.checkTracking(crime.offense,
                                                         distance(crime.Lat, crime.Long, movement[3].latitude, movement[3].longitude, "M"));
                                                 if (!tracker.equals("Not Tracking")) {
-                                                    sendPushNotification(tracker);
+                                                    //sendPushNotification(tracker);
 
                                                 }
                                             }

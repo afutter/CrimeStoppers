@@ -28,7 +28,7 @@ public class NotificationResultActivity extends Activity {
         toMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(passBack);
+                finish();
             }
         });
 
