@@ -39,12 +39,12 @@ public class Parser {
 
 	Hashtable<String, Integer> crime_count = new Hashtable<String, Integer>(100);
 
-	public LinkedList<Crime> data = new LinkedList<Crime>();
+	public LinkedList<Crime> data = new LinkedList<Crime>(); //used to store data and accessed by front end
 
 	public crimeSync mLink;
 
 	private final String LIVE_URL =
-			"http://data.octo.dc.gov/feeds/crime_incidents/crime_incidents_current.xml";
+			"http://data.octo.dc.gov/feeds/crime_incidents/crime_incidents_current.xml"; //this is the live feed
 
 	public int injectCrime(Crime c) {
 		data.add(0, c);
@@ -67,7 +67,10 @@ public class Parser {
 
 		return count;
 	}
-
+	/**
+	*	This establishes the connection between our app and the live data feed
+	*	and also calls the liveParse method, runs in the background of the application
+	**/
 	private class crimeSync extends AsyncTask<Void, Void, Integer> {
 
 		private HttpURLConnection cn;
@@ -92,7 +95,7 @@ public class Parser {
 
 				String result = sb.toString();
 
-				ret = liveParse(result);
+				ret = liveParse(result); //ret is the number of new crimes added to the dataset
 
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
@@ -150,20 +153,18 @@ public class Parser {
 			NodeList n1 = docElement.getChildNodes();
 
 
-			for (int i = 0; i < n1.getLength(); ++i) { //this is a convoluted mess
-
-				Node base = n1.item(i);
-				//System.out.println(base.getNodeName());
-				if (base.getNodeName().equals("entry")) {
+			for (int i = 0; i < n1.getLength(); ++i) { 	//This is the messy parse of an XML document.  
+														//The data we need is on the fourth generation of children, so we used four for loops
+				Node base = n1.item(i); 
+				if (base.getNodeName().equals("entry")) { //search for each crime entry, if found proceed to children
 					NodeList entryChildren = base.getChildNodes();
 					for (int k = 0; k < entryChildren.getLength(); k++) { //entry children
 						Node temp2 = entryChildren.item(k);
-						if (temp2.getNodeName().equals("content")) { // in content
-							//System.out.println(temp2.getNodeName());
+						if (temp2.getNodeName().equals("content")) { //in content, iterate through the children to find ReportedCrime element
 							NodeList temp3 = temp2.getChildNodes();
 							for (int z = 0; z < temp3.getLength(); z++) {
 								Node temp4 = temp3.item(z);
-								if (temp4.getNodeName().equals("dcst:ReportedCrime")) {
+								if (temp4.getNodeName().equals("dcst:ReportedCrime")) { //if ReportedCrime element, iterate through the children to find the relevant data
 
 									if (temp4.getNodeType() == Node.ELEMENT_NODE) {
 										NodeList n2 = temp4.getChildNodes();
@@ -175,7 +176,7 @@ public class Parser {
 										double LatCoordinate = 0;
 										double LongCoordinate = 0;
 
-										for (int j = 0; j < n2.getLength(); ++j) {
+										for (int j = 0; j < n2.getLength(); ++j) { //null checks are required for each entry as they may exist but not have any data
 
 											Node nextAtt = n2.item(j);
 
@@ -236,8 +237,8 @@ public class Parser {
 										}
 
 										newCrime = new Crime(offense, address, start, end, LatCoordinate, LongCoordinate);
-										//System.out.println(newCrime.Lat  + "  -  " +newCrime.Long + "\n");
-										if (data.contains(newCrime)) {
+										
+										if (data.contains(newCrime)) { //this checks if the data already exists, if it does we are done parsing and we return out
 
 											return newPos;
 
@@ -260,7 +261,7 @@ public class Parser {
 	}
 
 	/**
-	 * Parses a whole XML document of crimes, used for testing purposes
+	 * Parses a local XML document of crimes, used for testing purposes
 	 * @param in Stream to file
      */
 	public void parse(InputStream in) {
