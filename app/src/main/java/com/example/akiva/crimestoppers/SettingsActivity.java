@@ -48,6 +48,7 @@ public class SettingsActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
+        //set up all buttons, checkboxes, and seekbar
         radiusBar=(SeekBar)findViewById(R.id.seekBarRadius);
 
         radiusVal=(TextView)findViewById(R.id.seekbarVal);
@@ -64,7 +65,7 @@ public class SettingsActivity extends Activity {
         save=(Button) findViewById(R.id.submitButton);
         reset=(Button)findViewById(R.id.resetButton);
 
-
+        //get information to format settings properly
         if(getIntent()!=null){
             Intent intent = getIntent();
             radius = (int)intent.getDoubleExtra("radius", 0.00);
@@ -96,9 +97,11 @@ public class SettingsActivity extends Activity {
             }
         }
 
+        //listener for seekbar to update radius
         radiusBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int incomingProgress, boolean fromUser) {
+                //update text of seekbar value, update the seekbar progress
                 radiusVal.setText(""+seekBar.getProgress());
                 radiusBar.setProgress(incomingProgress);
                 progress=incomingProgress;
@@ -106,16 +109,16 @@ public class SettingsActivity extends Activity {
 
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
-
+                //not implemented
             }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-
+                //not implemented
             }
         });
 
-
+        //button listener for save button. Saves values and passes them back to MainActivity
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -130,6 +133,8 @@ public class SettingsActivity extends Activity {
                 finish();
             }
         });
+
+        //button listener for reset button. Resets Values of checkboxes and seekbar on settings page
         reset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -150,6 +155,8 @@ public class SettingsActivity extends Activity {
 
 
     }
+
+    //saves instance of checkboxes for when user goes back to home page.
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
@@ -164,6 +171,8 @@ public class SettingsActivity extends Activity {
         savedInstanceState.putInt("radiusBar", radiusBar.getProgress());
         savedInstanceState.putInt("progress", progress);
     }
+
+    //gets the values of the checkboxes that were saved and updates their values
     @Override
     public void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
@@ -183,10 +192,10 @@ public class SettingsActivity extends Activity {
 
 
 
-    /*Keys
-    * Theft, Robbery,Assault,Burglary,FromAutoTheft,sexualAbuse,Homicide,Car
-    * */
 
+    /*hashmap that stores which crimes are being tracked. Mapping is the Crime Type-->Error Message.
+      The String of the Crime type is what is defined from our data set. The Error Message will be
+      used later to defein a more complete error message that will include the distance to the error.*/
     private void setSettings(){
         if(theft.isChecked()){
             if(!tracking.containsKey(THEFT)) {
@@ -274,6 +283,11 @@ public class SettingsActivity extends Activity {
 
 
     }
+
+    /*Method called within MainActivity. If a crime is within the user's geofence, this method lets
+    * the App know if the user should be alerted about the crime. If the user should be alerted,
+    * a more complete error message is built and returned to the main activity
+    * */
     public static String checkTracking(String crimeType, double distance){
         DecimalFormat df = new DecimalFormat("#.##");
         df.setRoundingMode(RoundingMode.HALF_EVEN);

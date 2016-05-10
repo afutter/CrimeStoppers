@@ -86,6 +86,8 @@ public class MainActivity extends FragmentActivity
     private LatLng[] movement= new LatLng[4];
     private LocationManager mLocationManager;
 
+    private static final double ASSUMED_INIT_LATLNG_DIFF = 1.0;
+    private static final float ACCURACY = 0.01f;
 
 
     @Override
@@ -96,7 +98,8 @@ public class MainActivity extends FragmentActivity
 
 
         Button demo = (Button) findViewById(R.id.demo);
-        //movement[0]=new LatLng(38.931469, -77.051621 ); //start-->zoo
+
+        //GPS locations for demo
         movement[0]=new LatLng(38.95447, -77.047119); //rock creek
         movement[1]=new LatLng(38.928030, -77.048810); //cross bridge
         movement[2]=new LatLng(38.923718, -77.047093); //walter pierce park
@@ -107,11 +110,10 @@ public class MainActivity extends FragmentActivity
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
-        //if(null == (mLocationManager =  (LocationManager)getSystemService(Context.LOCATION_SERVICE))){
-        //  finish();
-        //}
 
+        //Settings button to access settingsActivity. Listener setup below
         mSettings_button = (FloatingActionButton) findViewById(R.id.settingsButton);
+
 
         mSettings_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -124,6 +126,8 @@ public class MainActivity extends FragmentActivity
                 startActivityForResult(intent, SETTINGS_REQUEST);
             }
         });
+
+        //setup map
         mGeocoder = new Geocoder(this);
         //This creates an instance of a GoogleAPI client
         if (mGoogleApiClient == null) {
@@ -135,41 +139,67 @@ public class MainActivity extends FragmentActivity
                     .addApi(LocationServices.API)
                     .addApi(AppIndex.API).build();
         }
+
+        //Button for running the demo. All code within this listener runs entire demo process
         demo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-
+                //turn on mockLocationManager
                 if (mLocationManager == null) {
                     Log.i(TAG, "location manager was null");
                     turnOnLocationManager();
                 }
-                //make sure this crime has a pin, make all other pins invisible
+
+                //Create Fake crime
                 Crime c = new Crime("HOMICIDE", "1369 Connecticut Ave NW, Washington, DC 20036, USA", "n/a", "n/a", 38.909627, -77.043381);
+
+                //Make sure crime is not made more than once
                 if(mCrimesList.contains(c)){
                     c.setVisable(false);
                     mCrimesList.remove(c);
                 }
+
+                //add crime to dataStructure that is storing crimes
                 mCrimesList.add(c);
                 addCrimeMarker(c);
                 c.setVisable(true);
-                //for (int i = 0; i < movement.length; i++) {
 
+
+                    /*
+                    * Move to four points. Show that when reached a point within the geofence,
+                    * a push notification will be sent. Here that point is stored in the movement
+                    * array at index 2
+                    *
+                    * */
+
+
+
+                    //update location and adjust map
                     updateLocation(movement[0]);
                     updateRadiusCircle();
                     adjustToRadius();
-                    Log.i("Loop", "got to next i. i=" + 0);
+
+
+                    //iterate through crimes to see if there is one within the geofence
                     for (Crime crime : mCrimesList) {
+                        //if there is an intersection, see if that crime is being tracked
                         if (intersects(crime.Lat, crime.Long, movement[0].latitude, movement[0].longitude)) {
-                            //call push
+
                             String tracker = SettingsActivity.checkTracking(crime.offense,
                                     distance(crime.Lat, crime.Long, movement[0].latitude, movement[0].longitude, "M"));
+
+                            //if crime type is being tracked, send push notification
                             if (!tracker.equals("Not Tracking")) {
                                 sendPushNotification(tracker);
 
                             }
                         }
                     }
+
+                /*Repeat process for several points. Handler used to create delay and to allow for UI
+                * to easily show update in points/location
+                * */
                 Handler handlerOne = new Handler();
                 handlerOne.postDelayed(new Runnable() {
                     @Override
@@ -178,10 +208,10 @@ public class MainActivity extends FragmentActivity
                         updateLocation(movement[1]);
                         updateRadiusCircle();
                         adjustToRadius();
-                        Log.i("Loop", "got to next i. i=" + 1);
+
                         for (Crime crime : mCrimesList) {
                             if (intersects(crime.Lat, crime.Long, movement[1].latitude, movement[1].longitude)) {
-                                //call push
+
                                 String tracker = SettingsActivity.checkTracking(crime.offense,
                                         distance(crime.Lat, crime.Long, movement[1].latitude, movement[1].longitude, "M"));
                                 if (!tracker.equals("Not Tracking")) {
@@ -198,7 +228,7 @@ public class MainActivity extends FragmentActivity
                                 updateLocation(movement[2]);
                                 updateRadiusCircle();
                                 adjustToRadius();
-                                Log.i("Loop", "got to next i. i=" + 2);
+
                                 for (Crime crime : mCrimesList) {
                                     if (intersects(crime.Lat, crime.Long, movement[2].latitude, movement[2].longitude)) {
                                         //call push
@@ -219,11 +249,11 @@ public class MainActivity extends FragmentActivity
                                         updateLocation(movement[3]);
                                         updateRadiusCircle();
                                         adjustToRadius();
-                                        Log.i("Loop", "got to next i. i=" + 3);
+
                                         for (Crime crime : mCrimesList) {
-                                            Log.i("Finally!!", "hit the scene");
+
                                             if (intersects(crime.Lat, crime.Long, movement[3].latitude, movement[3].longitude)) {
-                                                Log.i("Finally!!", "intersects");
+
                                                 //call push
                                                 String tracker = SettingsActivity.checkTracking(crime.offense,
                                                         distance(crime.Lat, crime.Long, movement[3].latitude, movement[3].longitude, "M"));
@@ -245,20 +275,24 @@ public class MainActivity extends FragmentActivity
 
 
 
-                //shutdownLocationManager();
+
             }
 
             //shutdownLocationManager();
         });
 
+        //check permission to make sure that user has allowed permission to Use app within the app
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
 
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_COARSE_LOCATION},
-                   0);
+                    0);
         }
 
     }
+
     protected void onStart() {
+
+        //start up map
         mGoogleApiClient.connect();
         super.onStart();
         // ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -277,6 +311,8 @@ public class MainActivity extends FragmentActivity
     }
 
     protected void onStop() {
+
+        //shut down the map
         mGoogleApiClient.disconnect();
         super.onStop();
         // ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -293,10 +329,7 @@ public class MainActivity extends FragmentActivity
         );
         AppIndex.AppIndexApi.end(mGoogleApiClient, viewAction);
     }
-    //Test Geofence
-    public void TestGeofence(){
 
-    }
 
 
     /**
@@ -312,24 +345,18 @@ public class MainActivity extends FragmentActivity
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         mGeocoder = new Geocoder(this, Locale.getDefault());
-        // Add a marker in Washington and move the camera
 
-        /*Marker marker= mMap.addMarker(new MarkerOptions()
-                        .position(mWashington)
-                        .title("You")
-                        .snippet("uh-oh...is crime nearby?")
-                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
-        );
-        marker.showInfoWindow();*/
         updateScreenLoc(movement[0]);
 
         loadCrimes(movement[0]);
-        //Start Parser;
+        //Start MockLocationManager and inject first point
         turnOnLocationManager();
         updateLocation(movement[0]);
         updateRadiusCircle();
 
     }
+
+    //update location of circle based on current user location
     private void updateRadiusCircle(){
         if(mRadiusCircle != null) {
             mRadiusCircle.setVisible(false);
@@ -342,29 +369,41 @@ public class MainActivity extends FragmentActivity
         mRadiusCircle.setVisible(true);
     }
 
+    //moves the map to center around current user location
     private void updateScreenLoc(LatLng loc){
         mMap.moveCamera(CameraUpdateFactory.newLatLng(loc));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(START_ZOOM), 2000, null);//2000 animates it for 2 seconds. Zoom lvl 10
     }
+
+    //adjusts size of map based on radius size
     private void adjustToRadius(){
         float distance = (float)(2 *METERS_PER_MILE * mRadius);
         LatLngBounds bounds = boundsWithCenterAndLatLngDistance(
                 new LatLng(mCurrentLoc.latitude, mCurrentLoc.longitude)
-                ,distance,distance);
-        mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(bounds,0),1000, null);
+                , distance, distance);
+        mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(bounds, 0), 1000, null);
     }
 
+    //load crimes from external data source
     private void loadCrimes(LatLng Loc){
+        //create a new instance of parser class. Parser class queries Data.octo.dc.gov for crime data
         mParser = new Parser();
+
+        //try and parse data
         try {
             mParser.parse(getResources().getAssets().open(DATA, 0));
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        //get the data from the parser and stores in TreeSet
         mCrimesList= mParser.nearestCrimes(Loc.latitude, Loc.longitude, mRadius);
+
         //Loop through and plot crimes
         List<Address> address;
         int i = 1;
+
+        //iterate through crimes and querey google to get latitude and longitude of particular addresses
         for(Crime c: mCrimesList){
             try {
                 address = mGeocoder.getFromLocationName(c.address ,1,
@@ -383,28 +422,38 @@ public class MainActivity extends FragmentActivity
                     }
                 }
                 LatLng coor = new LatLng(address.get(0).getLatitude(), address.get(0).getLongitude());
+
+                //Create pin
                 Marker crime_marker = mMap.addMarker(new MarkerOptions()
                         .position(coor));
+
+                //this put geofence around crime points. Team decided to comment out to remove clutter
                 /*Circle crime_circle = mMap.addCircle(new CircleOptions()
                         .center(new LatLng(coor.latitude, coor.longitude))
                         .radius(CIRCLE_SIZE)
                         .strokeColor(Color.RED)
                         .fillColor(RED_COLOR));
                 c.circle = crime_circle;*/
+
+
+                //crime object gets reference to its own pin
                 c.marker = crime_marker;
                 if(c.marker == null){
-                    Log.i(TAG, "weee gotta nulllll marker!!!!");
+                    Log.i(TAG, "null marker");
                 }
                 if(c.circle == null){
-                    Log.i(TAG, "weee gotta nulllll circle!!!!");
+                    Log.i(TAG, "null circle");
                 }
                 c.Lat = coor.latitude;
                 c.Long = coor.longitude;
+
+                //start out crime by being invisible
                 c.setVisable(false);
                 Log.i(TAG, "Crime:" + c.offense + " @ " + c.address + " PLOTTED");
             }catch(IOException e){
+                //catch any issue that google throws
                 Log.i(TAG, "I/O EXCEPTION while plotting crime");
-                mBadCrimesList.add(c);;
+                mBadCrimesList.add(c);
                 continue;
             }
             i++;
@@ -415,12 +464,15 @@ public class MainActivity extends FragmentActivity
         }
 
     }
+    //remove bad crimes that google had an issue with (in terms of formatting)
     private void removeBadCrimes(){
         for(Crime badCrime: mBadCrimesList){
             mCrimesList.remove(badCrime);
             Log.i(TAG, "bad crime removed");
         }
     }
+
+    //add pin to map
     private void addCrimeMarker(Crime c){
         LatLng coor = new LatLng(c.Lat, c.Long);
             Marker crime_marker = mMap.addMarker(new MarkerOptions()
@@ -432,7 +484,7 @@ public class MainActivity extends FragmentActivity
             c.setVisable(true);
             Log.i(TAG, "MockCrime:" + c.offense + " @ " + c.address + " PLOTTED");
     }
-    /*:: Distance                                                                :*/
+    /*:: CalculateDistance                                                       :*/
     /*::  Passed to function:                                                    :*/
     /*::    lat1, lon1 = Latitude and Longitude of point 1 (in decimal degrees)  :*/
     /*::    lat2, lon2 = Latitude and Longitude of point 2 (in decimal degrees)  :*/
@@ -468,6 +520,7 @@ public class MainActivity extends FragmentActivity
         return (rad * 180 / Math.PI);
     }
 
+    //get info back from settings page
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode != SETTINGS_REQUEST){
@@ -483,6 +536,7 @@ public class MainActivity extends FragmentActivity
             return;
 
         }
+        //get info on which crimes are being tracked and the radius being used
         mSettings = (HashMap<String, String>) data.getSerializableExtra("checkboxes");
         mRadius = data.getIntExtra("radius", -1);
         updateRadiusCircle();
@@ -552,23 +606,24 @@ public class MainActivity extends FragmentActivity
 
     @Override
     public void onConnected(Bundle bundle) {
-
+        //not implemented
     }
 
     @Override
     public void onConnectionSuspended(int i) {
-
+        //not implemented
     }
 
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
-
+        //not implemented
     }
 
     @Override
     public void onLocationChanged(Location location) {
-
+        //not implemented
     }
+
 
     private void sendPushNotification (String errorMessage){
 
@@ -583,6 +638,7 @@ public class MainActivity extends FragmentActivity
         Intent resultIntent= new Intent(this, NotificationResultActivity.class);
         resultIntent.putExtra(NOTIFICATION, errorMessage);
 
+        //build pending intent to pass to notificaiton bar
         PendingIntent resultPendingIntent =
                 PendingIntent.getActivity(
                         this,
@@ -591,10 +647,13 @@ public class MainActivity extends FragmentActivity
                         PendingIntent.FLAG_UPDATE_CURRENT
                 );
 
+        //pass pending intent to notificaiton builder
         mBuilder.setContentIntent(resultPendingIntent);
         mBuilder.setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION));
 
+        //id of notification
         int mNotificationId = 001;
+
         // Gets an instance of the NotificationManager service
         NotificationManager mNotifyMgr = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         // Builds the notification and issues it.
@@ -602,6 +661,7 @@ public class MainActivity extends FragmentActivity
 
     }
 
+    //turn on functionality to allow for mock location injection
     private void turnOnLocationManager(){
         mLocationManager=(LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
         mLocationManager.addTestProvider(LocationManager.GPS_PROVIDER, false, false, false,
@@ -610,31 +670,38 @@ public class MainActivity extends FragmentActivity
         //mLocationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, mLocationSource);
     }
     public void updateLocation(LatLng location){
+
+        //check permissions that its ok for user to use maps in app
         if ( Build.VERSION.SDK_INT >= 23 &&
                 ContextCompat.checkSelfPermission( this, android.Manifest.permission.ACCESS_FINE_LOCATION ) != PackageManager.PERMISSION_GRANTED &&
                 ContextCompat.checkSelfPermission( this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             return  ;
         }
 
+        //allow map to display mockLocations
         mMap.setMyLocationEnabled(true);
+
+        //setup Location manager
         Location mockLocation= new Location(LocationManager.GPS_PROVIDER);
+
+        //build mock location using LatLng passed in
         mockLocation.setLatitude(location.latitude);
         mockLocation.setLongitude(location.longitude);
         mockLocation.setAltitude(0);
         mockLocation.setTime(System.currentTimeMillis());
-        mockLocation
-                .setElapsedRealtimeNanos(SystemClock.elapsedRealtimeNanos());
+        mockLocation.setElapsedRealtimeNanos(SystemClock.elapsedRealtimeNanos());
         mockLocation.setAccuracy(5);
+
+        //add mockLoction to the manager
         mLocationManager.setTestProviderLocation(LocationManager.GPS_PROVIDER, mockLocation);
         mCurrentLoc = location;
         Log.i("LocationUpdate", "should have been updated");
-        //mMap.setLocationSource(new MyLocationSource(mockLocation));
+
 
 
     }
-    private void shutdownLocationManager() {
-        mLocationManager.removeTestProvider(LocationManager.GPS_PROVIDER);
-    }
+
+    //check to see if point is within geofense
     public boolean intersects(double Lat1, double Long1, double Lat2, double Long2){
         if(distance(Lat1, Long1, Lat2, Long2, "M") <= mRadius){
             return true;
@@ -644,9 +711,9 @@ public class MainActivity extends FragmentActivity
     }
 
 
-    private static final double ASSUMED_INIT_LATLNG_DIFF = 1.0;
-    private static final float ACCURACY = 0.01f;
 
+    //set the screen size to be sized around the radius.
+    //Source: https://stackoverflow.com/questions/6224671/mkcoordinateregionmakewithdistance-equivalent-in-android
     public static LatLngBounds boundsWithCenterAndLatLngDistance(LatLng center, float latDistanceInMeters, float lngDistanceInMeters) {
         latDistanceInMeters /= 2;
         lngDistanceInMeters /= 2;
