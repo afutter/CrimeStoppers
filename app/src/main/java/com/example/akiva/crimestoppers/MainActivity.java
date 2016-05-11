@@ -79,7 +79,7 @@ public class MainActivity extends FragmentActivity
     private final String TAG = "MainActivity";
     public  final static String NOTIFICATION = "notification";
     private final int SETTINGS_REQUEST = 1;
-    private final int MAX_CRIMES = 10; //Chance plotted crimes with this
+    private final int MAX_CRIMES = 100; //Change the number of plotted crimes with this
 
 
     private  LatLng mCurrentLoc;
@@ -353,6 +353,7 @@ public class MainActivity extends FragmentActivity
         turnOnLocationManager();
         updateLocation(movement[0]);
         updateRadiusCircle();
+
 
     }
 
